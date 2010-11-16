@@ -1,0 +1,8 @@
+Changelog
+=========
+
+0.1b - 20101110
+--------------
+
+* Initial development version, not released
+
