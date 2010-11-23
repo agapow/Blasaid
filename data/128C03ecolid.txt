@@ -1,0 +1,10 @@
+# BLASTN 2.2.23+
+# Query:  Ecoli
+# Database: 128C03readsDB
+# Fields: subject id, s. start, s. end, query id, evalue, identical, % identity
+# 4 hits found
+GID8KXB01A93LG	112	47	Ecoli	3e-022	65	98.48
+GID8KXB01A93LG	108	51	Ecoli	2e-019	58	100.00
+GID8KXB01A93LG	104	51	Ecoli	3e-012	51	94.44
+GID8KXB01BCWIN	61	32	Ecoli	7e-004	30	100.00
+# BLAST processed 1 queries
