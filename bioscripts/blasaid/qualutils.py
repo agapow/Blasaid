@@ -29,9 +29,17 @@ def get_qual_key (seqrec):
 	
 def get_qual_arr (seqrec, key=None):
 	key = key or DEFAULT_QUAL_KEY
-	return seqrec.letter_annotations[key]
+	return seqrec.letter_annotations.get (key, None)
 
 
 def set_qual_arr (seqrec, arr, key=None):
 	key = key or DEFAULT_QUAL_KEY
 	seqrec.letter_annotations[key] = arr
+
+
+def add_dummy_quals (seqrec):
+	qual_arr = [93] * len (seqrec)
+	set_qual_arr (seqrec, qual_arr, key=DEFAULT_QUAL_KEY)
+	
+
+### END #######################################################################

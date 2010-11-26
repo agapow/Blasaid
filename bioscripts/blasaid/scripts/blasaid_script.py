@@ -1,5 +1,37 @@
 """
 Script for automated blasting of NGS data.
+
+Aim
+---
+
+While next-generation sequencing (NGS) provides a bounty of data for analysis,
+identifying sequence fragments without a reference genome is arduous. Each
+fragment must be blasted seperately against a reference database, and the run
+will include duplicates, largely overlapping sequences or those that are too
+short or of too low quality. **blasaid** is a tool to helps reduce sequencing
+runs to the more important or interesting reads, blasts each automatically and
+synosizes the results for easy reading.
+
+Function
+--------
+
+Each *blasaid* run consists of the following steps:
+
+1. **Merge** all input sequences, incorporating any accompanying quality files.
+Optionally **trim** 3' end of sequence to rid low quality trailing segments.
+
+2. Optionally **filter** the input sequences, getting rid of any that fall below
+thresholds in quality or length.
+
+3. Optionally **cluster** the input sequences, reducing similar reads to a
+single example
+
+4. **Blast** the remaining reads against a chosen database and return results in
+a given format.
+
+5. The results are optionally **reduced** to the most interesting and
+**summarized**. 
+
 """
 
 __docformat__ = 'restructuredtext en'
@@ -14,10 +46,11 @@ from exceptions import BaseException, SystemExit
 import traceback
 import tempfile
 from datetime import datetime
+from itertools import islice
 
 from Bio import AlignIO, SeqIO
 
-from bioscripts.blasaid import filter, scriptlog
+from bioscripts.blasaid import filter, scriptlog, cluster
 from bioscripts.blasaid.scriptlog import log
 from bioscripts.blasaid.exseqreader import ExSeqReader
 
@@ -61,7 +94,12 @@ def get_scratch_dir (path):
 	else:
 		return tempfile.mkdtemp (prefix=prefix)
 		
-	
+
+def open_intermediate_file (base, scratch_dir):
+	inter_path = path.join (scratch_dir, base + SCRATCH_EXT)
+	return open (inter_path, 'w')
+
+
 def dump_options (opts):
 	log.debug ('Dumping options ...')
 	print ("Options:")
@@ -70,7 +108,7 @@ def dump_options (opts):
 
 
 def merge_and_trim_seqs (input_files, scratch_dir, input_format=None,
-		merge_quals=True, trim_right=options.trim_right):
+		merge_quals=True, trim_right=None):
 	"""
 	Combine input sequence files, with merging with quality data and trimming.
 	
@@ -85,13 +123,12 @@ def merge_and_trim_seqs (input_files, scratch_dir, input_format=None,
 	
 	## Main:
 	if trim_right:
-		log.debug ('Merging & trimming sequences ...')
+		log.info ('Merging & trimming sequences ...')
 	else:
-		log.debug ('Merging sequences ...')
+		log.info ('Merging sequences ...')
 		
 	# create & open file for filtered seqs
-	merged_out_path = path.join (scratch_dir, 'merged_and_trimmed' + SCRATCH_EXT)
-	merged_out_hndl = open (merged_out_path, 'w')
+	merged_out_hndl = open_intermediate_file ('merged_and_trimmed', scratch_dir)
 	
 	# read in seqfiles
 	seq_cnt = 0
@@ -117,8 +154,19 @@ def merge_and_trim_seqs (input_files, scratch_dir, input_format=None,
 	merged_out_hndl.close()
 	## Postconditions & return:
 	log.info ('%s sequences merged ...' % seq_cnt)
-	return merged_out_path
+	return merged_out_hndl.name
 
+
+def make_clusterer (identity=None, subsequence=None, similarity=None):
+	log.debug ('Checking clusterer ...')
+	if identity:
+		return cluster.cluster_identity
+	if subsequence:
+		return cluster.cluster_subsequence
+	if similarity:
+		return None
+	return None
+	
 
 def make_filters (length=None, base_quality=None, avg_quality=None):
 	log.debug ('Checking filters ...')
@@ -134,10 +182,9 @@ def make_filters (length=None, base_quality=None, avg_quality=None):
 
 def filter_seqs (infile, scratch_dir, filters):
 	## Main:
-	log.debug ('Filtering sequences ...')
+	log.info ('Filtering sequences ...')
 	# create & open file for filtered seqs
-	filtered_out_path = path.join (scratch_dir, 'filtered.fasta')
-	filtered_out_hndl = open (filtered_out_path, 'w')
+	filtered_out_hndl = open_intermediate_file ('filtered', scratch_dir)
 	# read in seqfile
 	filter_cnt = 0
 	log.info ("Reading '%s' ..." % infile)
@@ -155,33 +202,56 @@ def filter_seqs (infile, scratch_dir, filters):
 	filtered_out_hndl.close()
 	## Postconditions & return:
 	log.debug ('%s sequences remain after filtering ...' % filter_cnt)
-	return filtered_out_path
+	return filtered_out_hndl.name
 
 
 def cluster_seqs (infile, scratch_dir, cluster_fn):
+	# NOTE: the logic of this is quite hairy. We wish to traverse the number of
+	# times through the collection looking for similar seqs. At the same time,
+	# we don't wish to load the entirity of sequences into memory. So we open the
+	# infile file and read it one by one. For each sequence read, we read the file
+	# again and compare it to every sequence after it. The comparison (clustering)
+	# function returns None if the two sequences do not cluster. Otherwise it
+	# returns the preferred / better sequence of the two, which is then used for
+	# subsequent comparisons on this loop. We save on unnecessary comparsions by
+	# storing any sucessful matches in a "don't check" dict. We use a single file
+	# handle to searh one, rewinding as need be, to avoid opening and closing
+	# thousands.
+	
 	## Main:
-	log.debug ('Filtering sequences ...')
-	# create & open file for filtered seqs
-	filtered_out_path = path.join (scratch_dir, 'filtered.fasta')
-	filtered_out_hndl = open (filtered_out_path, 'w')
-	# read in seqfile
-	filter_cnt = 0
+	log.info ('Clustering sequences ...')
+	# create & open file for results, & open handl for searching / comparing
+	clustered_out_hndl = open_intermediate_file ('clustered', scratch_dir)
+	search_hndl = open (infile, 'r')
+	# read in seqfile and check seqs one-by-one
+	seq_cnt = 0
+	already_tested = {}
 	log.info ("Reading '%s' ..." % infile)
-	# make reader & read
 	rdr = ExSeqReader (infile, fmt=SCRATCH_FORMAT, merge_quals=False)
-	for seq in rdr.read():
-		log.debug ("Reading sequence '%s' ..." % seq.id)
-		# if it passes all filters
-		if all (filters):
-			log.debug ("Accepting '%s' ..." % seq.id)
-			SeqIO.write ([seq], filtered_out_hndl, "fasta")
-			filter_cnt += 1
-		else:
-			log.debug ("Rejecting '%s' ..." % seq.id)
-	filtered_out_hndl.close()
+	for i, seq_1 in enumerate (rdr.read()):
+		log.debug ("Reading sequence '%s' ..." % seq_1.id)
+		# if this seq hasn't previously been clustered
+		if seq_1.id not in already_tested:
+			# move to start of search file & start reading
+			search_hndl.seek (0)
+			rdr_2 = ExSeqReader (search_hndl, fmt=SCRATCH_FORMAT, merge_quals=False)
+			# for every seq beyond the current one
+			for seq_2 in islice (rdr_2.read(), i+1, None):
+				# if it hasn't previously been clustered
+				if seq_2.id not in already_tested:
+					cluster_seq = cluster_fn (seq_1, seq_2)
+					# if it clusters, place in "done" dict and update search term
+					if cluster_seq:
+						already_tested[seq_2.id] = True
+						seq_1 = cluster_seq
+			# save the surviving search term
+			SeqIO.write ([seq_1], clustered_out_hndl, "fasta")
+			seq_cnt += 1
+	clustered_out_hndl.close()
+	search_hndl.close()
 	## Postconditions & return:
-	log.debug ('%s sequences remain after filtering ...' % filter_cnt)
-	return filtered_out_path
+	log.debug ('%s sequences remain after clustering ...' % seq_cnt)
+	return clustered_out_hndl
 
 
 def parse_args():	
@@ -193,7 +263,6 @@ def parse_args():
 		version       = 'version %s' %  VERSION,
 		description   = "Reduce and blast NGS data.",
 		# epilog='FORMAT must be one of %s.\n',
-		epilog        = '',
 	)
 	
 	# TODO: filter by range
@@ -250,14 +319,14 @@ def parse_args():
 	
 	optparser.add_option ('--cluster-by-identity',
 		dest="cluster_identity",
-		type=store_true,
+		action='store_true',
 		default=False,
 		help='''Sequences that are identical are reduced to a single example''',
 	)
 	
 	optparser.add_option ('--cluster-by-subsequence',
 		dest="cluster_subsequence",
-		type=store_true,
+		action='store_true',
 		default=False,
 		help='''Sequences that are subsequences of others are eliminated''',
 	)
@@ -341,24 +410,30 @@ def main():
 		scratch_dir = get_scratch_dir (options.intermediate_files)
 		log.info ("Making temporary files at '%s' ..." % scratch_dir)
 		
-		merge_file = merge_and_trim_seqs (input_files, scratch_dir,
+		work_file = merge_and_trim_seqs (input_files, scratch_dir,
 			merge_quals=not options.ignore_qual_files,
 			trim_right=options.trim_right,
 			input_format=options.input_format
 		)
 
-		filter_file = filter_seqs (merge_file, scratch_dir,
-			make_filters (
-				length = options.filter_length,
-				base_quality = options.filter_base_qual_threshold,
-				avg_quality = options.filter_avg_qual_threshold,
-			)
+		filters = make_filters (
+			length = options.filter_length,
+			base_quality = options.filter_base_qual_threshold,
+			avg_quality = options.filter_avg_qual_threshold,
 		)
+		if (filters):
+			work_file = filter_seqs (work_file, scratch_dir, filters)
 		
-		log.debug ('Clustering sequences ...')
-		cluster_file = cluster_seqs (filter_file, scratch_dir,
-			merge_quals=not options.ignore_qual_files,
-			input_format=options.input_format)
+		clusterer = make_clusterer (
+			options.cluster_identity,
+			options.cluster_subsequence,
+			options.cluster_similar,
+		)
+		if clusterer: 
+			work_file = cluster_seqs (work_file, scratch_dir, clusterer)
+
+		
+		# now, finally, we can blast
 		
 	
 	except BaseException, err:

@@ -17,6 +17,7 @@ from itertools import izip
 from Bio import SeqIO
 
 import formats
+from qualutils import add_dummy_quals
 
 
 ### CONSTANTS & DEFINES
@@ -58,6 +59,8 @@ class ExSeqReader (object):
 				yield s
 		else:
 			for s in SeqIO.parse (self.hndl, self.fmt):
+				if not s.letter_annotations:
+					add_dummy_quals (s)
 				yield s			
 
 			

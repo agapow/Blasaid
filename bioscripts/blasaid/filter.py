@@ -32,7 +32,7 @@ class MinBaseQuality (object):
 			# check phred quality or else whatever they give
 			scores = quals.get ('phred_quality') or quals.get (quals.keys[0])
 			for s in scores:
-				if (s < threshold):
+				if (s < self.threshold):
 					return False
 		return True
 
@@ -54,7 +54,7 @@ class MinAvgBaseQuality (object):
 			# check phred quality or else whatever they give
 			scores = quals.get ('phred_quality') or quals.get (quals.keys[0])
 			avg_qual = sum (scores) / float (len (scores))
-			if (avg_qual < threshold):
+			if (avg_qual < self.threshold):
 				return False
 		return True
 		
