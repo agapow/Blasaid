@@ -40,7 +40,7 @@ __author__ = 'Paul-Michael Agapow <paul-michael.agapow@hpa.org.uk>'
 
 ### IMPORTS ###
 
-from os import path
+from os import path, mkdir
 import sys
 from exceptions import BaseException, SystemExit
 import traceback
@@ -53,6 +53,7 @@ from Bio import AlignIO, SeqIO
 from bioscripts.blasaid import filter, scriptlog, cluster
 from bioscripts.blasaid.scriptlog import log
 from bioscripts.blasaid.exseqreader import ExSeqReader
+from bioscripts.blasaid.blast import blast_ncbi
 
 
 ### CONSTANTS & DEFINES ###
@@ -79,27 +80,98 @@ DEFAULT_OUTPUT_FORMAT = OUTPUT_FORMATS[0]
 SCRATCH_FORMAT = 'fastq'
 SCRATCH_EXT = '.fastq'
 
+BLAST_DIR_NAME = 'blast-results'
+
 _DEV_MODE = True
 
 
 ### IMPLEMENTATION ###
 	
-def get_scratch_dir (path):
+### FILE UTILS
+
+def get_scratch_dir (pth):
 	"""
 	Create a directory for scratch files.
 	"""
-	prefix = datetime.now().strftime ("blasaid-%Y%m%dT%H%M-")
-	if (path):
-		return tempfile.mkdtemp (prefix=prefix, dir=path)
+	prefix = datetime.now().strftime ("blasaid-scratch-%Y%m%dT%H%M-")
+	if (pth):
+		return tempfile.mkdtemp (prefix=prefix, dir=pth)
 	else:
 		return tempfile.mkdtemp (prefix=prefix)
 		
 
+def open_file_hndl (paths, mode='w'):
+	"""
+	Join the path components, open the file there and return the handle.
+	
+	A convienience method.
+	"""
+	return open (path.join (*paths), mode)
+	
+
 def open_intermediate_file (base, scratch_dir):
-	inter_path = path.join (scratch_dir, base + SCRATCH_EXT)
-	return open (inter_path, 'w')
+	#inter_path = path.join (scratch_dir, base + SCRATCH_EXT)
+	#return open (inter_path, 'w')
+	return open_file_hndl ([scratch_dir, base + SCRATCH_EXT])
 
 
+### BLAST OPERATIONS
+
+def make_blast_raw_dir (scratch_dir):
+	"""
+	Make a directory for the saving of Blast result files.
+	"""
+	res_path = path.join (scratch_dir, BLAST_DIR_NAME)
+	log.debug ("making blast result directory at '%s' ..." % res_path)
+	mkdir (res_path)
+	return res_path
+
+
+def blast_seqs (in_file, scratch_dir, result_dir, e_threshold=None,
+		max_hits=None):
+	log.info ('Blasting reads ...')
+	#
+	# read in seqfile
+	blast_cnt = 0
+	rdr = ExSeqReader (in_file, fmt=SCRATCH_FORMAT, merge_quals=False)
+	# for each sequence
+	for seq in rdr.read():
+		log.info ("Blasting sequence '%s' ..." % seq.id)
+		# blast it and write down to scratch
+		res = blast_ncbi (seq.format('fasta'),
+			e_threshold=e_threshold,
+			max_hits=max_hits,
+		)
+		blast_cnt += 1
+		scratch_hndl = open_file_hndl ([result_dir, '%s.xml' % seq.id])
+		scratch_hndl.write (res.read())
+		scratch_hndl.close()
+		# reduce and write to results
+		res.seek(0)
+		result_hndl = open_file_hndl ([result_dir, '%s.xml' % seq.id])
+		result_hndl.write (res.read())
+		result_hndl.close()
+		# summarize
+		
+	## Postconditions & return:
+	log.info ('%s sequences were blasted ...' % blast_cnt)
+
+
+def make_results_dir (result_path=None):
+	"""
+	Create a directory for saving blast results & summaries for the user.
+	
+	This is for the results that the user will always see. Intermediate results
+	(before reduction) are saved in the scratch sub-directory.
+	"""
+	
+	# TODO: need a random suffix like scratch dir?
+	# build path for directory
+	prefix = datetime.now().strftime ("blasaid-results-%Y%m%dT%H%M-")
+	result_path = result_path or '.'
+	return tempfile.mkdtemp (prefix=prefix, dir=result_path)
+		
+		
 def dump_options (opts):
 	log.debug ('Dumping options ...')
 	print ("Options:")
@@ -160,11 +232,11 @@ def merge_and_trim_seqs (input_files, scratch_dir, input_format=None,
 def make_clusterer (identity=None, subsequence=None, similarity=None):
 	log.debug ('Checking clusterer ...')
 	if identity:
-		return cluster.cluster_identity
+		return cluster.identity
 	if subsequence:
-		return cluster.cluster_subsequence
+		return cluster.subsequence
 	if similarity:
-		return None
+		return PairwiseSimilarity (similarity)
 	return None
 	
 
@@ -195,7 +267,7 @@ def filter_seqs (infile, scratch_dir, filters):
 		# if it passes all filters
 		if all (filters):
 			log.debug ("Accepting '%s' ..." % seq.id)
-			SeqIO.write ([seq], filtered_out_hndl, "fasta")
+			SeqIO.write ([seq], filtered_out_hndl, SCRATCH_FORMAT)
 			filter_cnt += 1
 		else:
 			log.debug ("Rejecting '%s' ..." % seq.id)
@@ -245,13 +317,13 @@ def cluster_seqs (infile, scratch_dir, cluster_fn):
 						already_tested[seq_2.id] = True
 						seq_1 = cluster_seq
 			# save the surviving search term
-			SeqIO.write ([seq_1], clustered_out_hndl, "fasta")
+			SeqIO.write ([seq_1], clustered_out_hndl, SCRATCH_FORMAT)
 			seq_cnt += 1
 	clustered_out_hndl.close()
 	search_hndl.close()
 	## Postconditions & return:
 	log.debug ('%s sequences remain after clustering ...' % seq_cnt)
-	return clustered_out_hndl
+	return clustered_out_hndl.name
 
 
 def parse_args():	
@@ -261,8 +333,8 @@ def parse_args():
 		prog          = 'blasaid',
 		usage         = '%prog [options] SEQFILES ...',
 		version       = 'version %s' %  VERSION,
-		description   = "Reduce and blast NGS data.",
-		# epilog='FORMAT must be one of %s.\n',
+		description   = 'Reduce and blast NGS data.',
+		epilog        = 'See the README or program documentation for further details',
 	)
 	
 	# TODO: filter by range
@@ -340,17 +412,44 @@ def parse_args():
 		metavar='PERCENT',
 	)
 	
-	optparser.add_option ('--output-format', '-o',
-		dest="output_format",
-		choices=OUTPUT_FORMATS,
-		default=DEFAULT_OUTPUT_FORMAT,
-		help='''The format of the output blast result files. If not supplied, this
-			will default to %s.''',
-		metavar='BLAST_FORMAT',
+	optparser.add_option ('--blast-expect',
+		dest="blast_expect",
+		type=float,
+		default=None,
+		help='''Blast with this e-threshold (expectation) cut-off.''',
+		metavar='PERCENT',
+	)	
+
+	optparser.add_option ('--blast-max-hits',
+		dest="blast_max_hits",
+		type=int,
+		default=None,
+		help='''Blast with this e-threshold (expectation) cut-off.''',
+		metavar='PERCENT',
 	)
 	
-	optparser.add_option ('--intermediate-files',
-		dest="intermediate_files",
+	# TODO: call this results format?
+	#optparser.add_option ('--output-format', '-o',
+	#	dest="output_format",
+	#	choices=OUTPUT_FORMATS,
+	#	default=DEFAULT_OUTPUT_FORMAT,
+	#	help='''The format of the output blast result files. If not supplied, this
+	#		will default to %s.''',
+	#	metavar='BLAST_FORMAT',
+	#)
+	
+	# TODO: call this output path?
+	optparser.add_option ('--results-path',
+		dest="results_path",
+		type=str,
+		default=None,
+		help='''Where blast results and summaries will be saved. By default this
+			will be in the current directory.''',
+		metavar='NAME',
+	)
+	
+	optparser.add_option ('--scratch-path',
+		dest="scratch_path",
 		type=str,
 		default=None,
 		help='''Where to store intermediate files. By default these will be kept
@@ -388,10 +487,15 @@ def parse_args():
 	# parse 
 	options, infiles = optparser.parse_args()
 	
-	### Postconditions & return:
+	## Postconditions & return:
+	# need at least 1 input file
 	if (not infiles):
 		optparser.error ('No input files specified')
-		
+	# can only use one clustering method
+	assert (bool(options.cluster_identity) + bool(options.cluster_subsequence) +
+		bool(options.cluster_similar) <= 1), "multiple clustering methods set"
+	
+	# return
 	return infiles, options
 
 
@@ -399,23 +503,27 @@ def main():
 	input_files, options = parse_args()
 
 	try:
+		# auxillary and help functions
+		if options.dump_options:
+			dump_options (options)
+			
+		# setup
 		scriptlog.init_logger (
 			format="%(message)s",
 			verbosity=options.verbosity,
 		)
 		
-		if options.dump_options:
-			dump_options (options)
-		
-		scratch_dir = get_scratch_dir (options.intermediate_files)
+		scratch_dir = get_scratch_dir (options.scratch_path)
 		log.info ("Making temporary files at '%s' ..." % scratch_dir)
 		
+		# read in. merge and trim seq files
 		work_file = merge_and_trim_seqs (input_files, scratch_dir,
 			merge_quals=not options.ignore_qual_files,
 			trim_right=options.trim_right,
 			input_format=options.input_format
 		)
 
+		# filter stuff, if requested
 		filters = make_filters (
 			length = options.filter_length,
 			base_quality = options.filter_base_qual_threshold,
@@ -424,6 +532,7 @@ def main():
 		if (filters):
 			work_file = filter_seqs (work_file, scratch_dir, filters)
 		
+		# cluster stuff, if requested
 		clusterer = make_clusterer (
 			options.cluster_identity,
 			options.cluster_subsequence,
@@ -431,9 +540,23 @@ def main():
 		)
 		if clusterer: 
 			work_file = cluster_seqs (work_file, scratch_dir, clusterer)
-
+			
+		# blast stuff, if not a dryrun
+		if not options.dryrun:
+			# directory for raw results straight from server
+			blast_out_dir = make_blast_raw_dir (scratch_dir)
+			# directory for distilled results
+			results_dir = make_results_dir (options.results_path)
+			log.info ("Making results files at '%s' ..." % results_dir)
 		
-		# now, finally, we can blast
+			result_dir = blast_seqs (work_file,
+				scratch_dir=blast_out_dir,
+				result_dir=results_dir,
+				e_threshold=options.blast_expect,
+				max_hits=options.blast_max_hits,
+			)
+			# and combine, reduce & summarize if requested
+
 		
 	
 	except BaseException, err:

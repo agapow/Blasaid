@@ -16,7 +16,7 @@ METHOD_SYNONYMS = {
 	'n'   : 'blastn',
 	'x'   : 'blastx',
 	'tn'  : 'tblastn',
-	'tx'  : 'tblastx'',
+	'tx'  : 'tblastx',
 }     
 
 METHOD_VOCAB = [

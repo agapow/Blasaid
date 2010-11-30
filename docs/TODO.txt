@@ -1,0 +1,14 @@
+TODO
+====
+
+* Summary formats
+
+* Distillation of results
+
+* Better clustering
+
+* Better filtering
+
+* Check requirements of egg
+
+* Make a standalone version
