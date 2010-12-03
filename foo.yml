@@ -1,0 +1,1199 @@
+# Blast summary written by blasaid v0.1b, 20101201T1421
+# Blast summary written by blasaid v0.1b, 20101201T1421
+---
+application:
+   name: BLASTN
+   version: 2.2.24+
+   query: GID8KXB01AYLSQ length=278 xy=0277_0072 region=1 run=R_2010_06_04_16_39_59_
+   database: nr
+parameters:
+   gap-penalties: (5, 2)
+   blast-cutoff: (None, None)
+   window-size: None
+   threshold: None
+hits:
+ - title: gi|296840627|gb|EU215442.2| Transposition vector pUC18T-mini-Tn7T-Km::loxP, complete sequence
+   score: 78.0
+   expect: 2.27338e-09
+   hsps:
+    - score: 78.0
+      bits: 71.6177
+      expect: 2.27338e-09
+      identities: 39
+      positives: 39
+      gaps: 0
+      query-alignment: 163-201
+      hit-alignment: 980-942
+      alignment: |
+         query              AATAACTTCGTATAGCATACATTATACGAAGTTATACGA
+                            |||||||||||||||||||||||||||||||||||||||
+         subject            AATAACTTCGTATAGCATACATTATACGAAGTTATACGA
+    - score: 66.0
+      bits: 60.7975
+      expect: 4.11037e-06
+      identities: 33
+      positives: 33
+      gaps: 0
+      query-alignment: 167-199
+      hit-alignment: 2286-2254
+      alignment: |
+         query              ACTTCGTATAGCATACATTATACGAAGTTATAC
+                            |||||||||||||||||||||||||||||||||
+         subject            ACTTCGTATAGCATACATTATACGAAGTTATAC
+ - title: gi|296840626|gb|EU215441.2| Transposition vector pUC18T-mini-Tn7T-Zeo::loxP, complete sequence
+   score: 78.0
+   expect: 2.27338e-09
+   hsps:
+    - score: 78.0
+      bits: 71.6177
+      expect: 2.27338e-09
+      identities: 39
+      positives: 39
+      gaps: 0
+      query-alignment: 163-201
+      hit-alignment: 980-942
+      alignment: |
+         query              AATAACTTCGTATAGCATACATTATACGAAGTTATACGA
+                            |||||||||||||||||||||||||||||||||||||||
+         subject            AATAACTTCGTATAGCATACATTATACGAAGTTATACGA
+    - score: 66.0
+      bits: 60.7975
+      expect: 4.11037e-06
+      identities: 33
+      positives: 33
+      gaps: 0
+      query-alignment: 167-199
+      hit-alignment: 1642-1610
+      alignment: |
+         query              ACTTCGTATAGCATACATTATACGAAGTTATAC
+                            |||||||||||||||||||||||||||||||||
+         subject            ACTTCGTATAGCATACATTATACGAAGTTATAC
+ - title: gi|297660525|gb|HM068614.1| Cloning vector pattB-QF-hsp70, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 46
+      positives: 46
+      gaps: 1
+      query-alignment: 164-212
+      hit-alignment: 4842-4793
+      alignment: |
+         query              ATAACTTCGTATAGCATACATTATACGAAGTTATACGAG-CTAGTTACAG
+                            |||||||||||||||||||||||||||||||||| | || |||||| |||
+         subject            ATAACTTCGTATAGCATACATTATACGAAGTTATGCTAGCCTAGTTCCAG
+ - title: gi|223454012|gb|FJ710109.1| Cloning vector pPAC7, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 38
+      positives: 38
+      gaps: 0
+      query-alignment: 160-197
+      hit-alignment: 9162-9125
+      alignment: |
+         query              CGTAATAACTTCGTATAGCATACATTATACGAAGTTAT
+                            ||||||||||||||||||||||||||||||||||||||
+         subject            CGTAATAACTTCGTATAGCATACATTATACGAAGTTAT
+    - score: 66.0
+      bits: 60.7975
+      expect: 4.11037e-06
+      identities: 35
+      positives: 35
+      gaps: 0
+      query-alignment: 162-197
+      hit-alignment: 21569-21534
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTAT
+                            |||||||||||||||| |||||||||||||||||||
+         subject            TAATAACTTCGTATAGTATACATTATACGAAGTTAT
+ - title: gi|189909352|gb|EU729723.1| Transformation vector pUAS-K10attB, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 46
+      positives: 46
+      gaps: 1
+      query-alignment: 164-212
+      hit-alignment: 4842-4793
+      alignment: |
+         query              ATAACTTCGTATAGCATACATTATACGAAGTTATACGAG-CTAGTTACAG
+                            |||||||||||||||||||||||||||||||||| | || |||||| |||
+         subject            ATAACTTCGTATAGCATACATTATACGAAGTTATGCTAGCCTAGTTCCAG
+ - title: gi|189909351|gb|EU729722.1| Transformation vector pw+SNattB, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 46
+      positives: 46
+      gaps: 1
+      query-alignment: 164-212
+      hit-alignment: 4842-4793
+      alignment: |
+         query              ATAACTTCGTATAGCATACATTATACGAAGTTATACGAG-CTAGTTACAG
+                            |||||||||||||||||||||||||||||||||| | || |||||| |||
+         subject            ATAACTTCGTATAGCATACATTATACGAAGTTATGCTAGCCTAGTTCCAG
+ - title: gi|158343365|gb|EU215436.1| LoxP vector pLOX1, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 38
+      positives: 38
+      gaps: 0
+      query-alignment: 163-200
+      hit-alignment: 2565-2602
+      alignment: |
+         query              AATAACTTCGTATAGCATACATTATACGAAGTTATACG
+                            ||||||||||||||||||||||||||||||||||||||
+         subject            AATAACTTCGTATAGCATACATTATACGAAGTTATACG
+    - score: 66.0
+      bits: 60.7975
+      expect: 4.11037e-06
+      identities: 33
+      positives: 33
+      gaps: 0
+      query-alignment: 167-199
+      hit-alignment: 2449-2481
+      alignment: |
+         query              ACTTCGTATAGCATACATTATACGAAGTTATAC
+                            |||||||||||||||||||||||||||||||||
+         subject            ACTTCGTATAGCATACATTATACGAAGTTATAC
+ - title: gi|158343362|gb|EU215435.1| Zeocin resistance loxP vector pLZE1, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 38
+      positives: 38
+      gaps: 0
+      query-alignment: 163-200
+      hit-alignment: 3111-3148
+      alignment: |
+         query              AATAACTTCGTATAGCATACATTATACGAAGTTATACG
+                            ||||||||||||||||||||||||||||||||||||||
+         subject            AATAACTTCGTATAGCATACATTATACGAAGTTATACG
+    - score: 66.0
+      bits: 60.7975
+      expect: 4.11037e-06
+      identities: 33
+      positives: 33
+      gaps: 0
+      query-alignment: 167-199
+      hit-alignment: 2449-2481
+      alignment: |
+         query              ACTTCGTATAGCATACATTATACGAAGTTATAC
+                            |||||||||||||||||||||||||||||||||
+         subject            ACTTCGTATAGCATACATTATACGAAGTTATAC
+ - title: gi|158343359|gb|EU215434.1| Kanamycin resistance loxP vector pLKM1, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 38
+      positives: 38
+      gaps: 0
+      query-alignment: 163-200
+      hit-alignment: 3755-3792
+      alignment: |
+         query              AATAACTTCGTATAGCATACATTATACGAAGTTATACG
+                            ||||||||||||||||||||||||||||||||||||||
+         subject            AATAACTTCGTATAGCATACATTATACGAAGTTATACG
+    - score: 66.0
+      bits: 60.7975
+      expect: 4.11037e-06
+      identities: 33
+      positives: 33
+      gaps: 0
+      query-alignment: 167-199
+      hit-alignment: 2449-2481
+      alignment: |
+         query              ACTTCGTATAGCATACATTATACGAAGTTATAC
+                            |||||||||||||||||||||||||||||||||
+         subject            ACTTCGTATAGCATACATTATACGAAGTTATAC
+ - title: gi|124365492|gb|EF362409.1| Cloning and transformation vector pUASTattB, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 46
+      positives: 46
+      gaps: 1
+      query-alignment: 164-212
+      hit-alignment: 4842-4793
+      alignment: |
+         query              ATAACTTCGTATAGCATACATTATACGAAGTTATACGAG-CTAGTTACAG
+                            |||||||||||||||||||||||||||||||||| | || |||||| |||
+         subject            ATAACTTCGTATAGCATACATTATACGAAGTTATGCTAGCCTAGTTCCAG
+ - title: gi|67867077|gb|DQ073476.1| Chloroplast transformation vector pRvdB1, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 38
+      positives: 38
+      gaps: 0
+      query-alignment: 162-199
+      hit-alignment: 5580-5543
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATAC
+                            ||||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATAC
+    - score: 72.0
+      bits: 66.2076
+      expect: 9.66666e-08
+      identities: 36
+      positives: 36
+      gaps: 0
+      query-alignment: 163-198
+      hit-alignment: 7033-6998
+      alignment: |
+         query              AATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            ||||||||||||||||||||||||||||||||||||
+         subject            AATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|30407693|gb|AY192024.1| BAC cloning vector pEBAC190G, complete sequence
+   score: 76.0
+   expect: 7.93488e-09
+   hsps:
+    - score: 76.0
+      bits: 69.8143
+      expect: 7.93488e-09
+      identities: 38
+      positives: 38
+      gaps: 0
+      query-alignment: 160-197
+      hit-alignment: 17951-17988
+      alignment: |
+         query              CGTAATAACTTCGTATAGCATACATTATACGAAGTTAT
+                            ||||||||||||||||||||||||||||||||||||||
+         subject            CGTAATAACTTCGTATAGCATACATTATACGAAGTTAT
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 22861-22897
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 66.0
+      bits: 60.7975
+      expect: 4.11037e-06
+      identities: 35
+      positives: 35
+      gaps: 0
+      query-alignment: 162-197
+      hit-alignment: 4980-4945
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTAT
+                            |||||||||||||||| |||||||||||||||||||
+         subject            TAATAACTTCGTATAGTATACATTATACGAAGTTAT
+ - title: gi|311120223|gb|HM592666.1| PGREG expression vector pGREG505-T, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 7620-7656
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 9122-9158
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|311120219|gb|HM592665.1| PGREG expression vector pGREG505-G, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 7898-7934
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 9400-9436
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|311120215|gb|HM592664.1| PGREG expression vector pGREG505-C, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 7505-7541
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 9007-9043
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|308743325|gb|HM357235.1| Knock-in vector FBDki, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 5036-5072
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 6731-6767
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|308026304|emb|FN820498.1| Nuphar advena rpoTm2 gene for RNA polymerase, exons 1-19
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 7115-7079
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|307557308|gb|HM588137.1| Targeting vector Ptbp1, partial sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 164-200
+      hit-alignment: 9325-9289
+      alignment: |
+         query              ATAACTTCGTATAGCATACATTATACGAAGTTATACG
+                            |||||||||||||||||||||||||||||||||||||
+         subject            ATAACTTCGTATAGCATACATTATACGAAGTTATACG
+    - score: 68.0
+      bits: 62.6008
+      expect: 1.17764e-06
+      identities: 34
+      positives: 34
+      gaps: 0
+      query-alignment: 164-197
+      hit-alignment: 10985-10952
+      alignment: |
+         query              ATAACTTCGTATAGCATACATTATACGAAGTTAT
+                            ||||||||||||||||||||||||||||||||||
+         subject            ATAACTTCGTATAGCATACATTATACGAAGTTAT
+ - title: gi|292659081|gb|GQ452294.1| Cloning vector pTARa, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 15420-15456
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|300872545|gb|HM365221.1| Mus musculus transgenic glucocorticoid receptor DNA binding factor 1 null mutant Grlf1tm2JSet (Grlf1) gene, partial sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 325-289
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 4781-4745
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|300116320|gb|AC215487.4| Solanum lycopersicum chromosome 0 clone C00SLm0076E07, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 91059-91023
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|293651475|dbj|AB553834.1| Human artificial chromosome vector 21HAC4 DNA, isolated from the long arm, clone: YAC/BAC#26-2
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 42266-42230
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|270268956|dbj|AB535096.1| Targeting vector pTgKCNQ2 DNA, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 8091-8127
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 64.0
+      bits: 58.9941
+      expect: 1.43466e-05
+      identities: 35
+      positives: 35
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 9667-9703
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||| |||| |||||||||||||||
+         subject            TAATAACTTCGTATAGGATACTTTATACGAAGTTATA
+    - score: 58.0
+      bits: 53.584
+      expect: 0.000610033
+      identities: 29
+      positives: 29
+      gaps: 0
+      query-alignment: 169-197
+      hit-alignment: 7489-7517
+      alignment: |
+         query              TTCGTATAGCATACATTATACGAAGTTAT
+                            |||||||||||||||||||||||||||||
+         subject            TTCGTATAGCATACATTATACGAAGTTAT
+ - title: gi|260918163|gb|GQ424832.1| Soriano targeting vector, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 5036-5072
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 6731-6767
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|262073154|gb|AC238765.1| Carica papaya BAC clone 57B23, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 323-359
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|258617571|gb|GQ463722.1| Physcomitrella transformation vector pBS108-35SNPT-b, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 4982-4946
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 6771-6735
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|211909011|gb|FJ380061.1| Cloning vector pMQ156, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1196-1232
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|211906320|gb|FJ389571.1| Mus musculus immunoglobulin mu heavy chain gene, intron
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1641-1677
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|194473373|emb|FM200849.1| PCR template vector pZC2, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 88-52
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1438-1402
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|194473370|emb|FM200848.1| PCR template vector pZC1, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 88-52
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1821-1785
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|189038584|gb|EU718182.1| Expression vector pESPBAC, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 13749-13785
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|171194026|gb|EU546822.1| Cloning vector pMQ125, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1196-1232
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|171194020|gb|EU546821.1| Cloning vector pMQ124, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1196-1232
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|170933591|gb|AC220061.1| Solanum lycopersicum chromosome 11 clone C11SLm0052K14, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1132-1168
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|169808049|dbj|AB427140.1| Exchangeable gene trap vector pU-21W geo-lessCpG gene for beta-geo-lessCpG, complete cds
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 6249-6285
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 68.0
+      bits: 62.6008
+      expect: 1.17764e-06
+      identities: 36
+      positives: 36
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 9226-9262
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||| ||||||||||||||||||||
+         subject            TAATAACTTCGTATAGTATACATTATACGAAGTTATA
+    - score: 64.0
+      bits: 58.9941
+      expect: 1.43466e-05
+      identities: 35
+      positives: 35
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 6724-6760
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||| |||| |||||||||||||||
+         subject            TAATAACTTCGTATAGGATACTTTATACGAAGTTATA
+    - score: 60.0
+      bits: 55.3874
+      expect: 0.000174777
+      identities: 30
+      positives: 30
+      gaps: 0
+      query-alignment: 169-198
+      hit-alignment: 1457-1486
+      alignment: |
+         query              TTCGTATAGCATACATTATACGAAGTTATA
+                            ||||||||||||||||||||||||||||||
+         subject            TTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|169160108|gb|EU483152.1| Shuttle vector pMQ122, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1196-1232
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|164551529|gb|EU233428.1| Mus musculus strain 129/Sv transgenic line PWScrdel genomic sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1546-1582
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|163961140|gb|EU327975.1| Binary vector pBLOXNPT, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 2581-2617
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 4693-4729
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|163860181|gb|EU327498.1| Binary vector pCLKSCLA25, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 7528-7564
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 11789-11825
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|163860177|gb|EU327497.1| Binary vector pBLNSC, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 2581-2617
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 7345-7381
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|163860173|gb|EU327496.1| Transformation vector pC23LG, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 8406-8442
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 11503-11539
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|163860169|gb|EU327495.1| Transformation vector pC23LB, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 8406-8442
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 10243-10279
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|162423740|gb|EU292740.1| Cloning vector pFOSKAN, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 8129-8165
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|162423735|gb|EU292739.1| Cloning vector pFOSAMP, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 8675-8711
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|158854231|gb|EU101022.1| Cloning vector pSMART BAC v2.0, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 1019-983
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|157734259|dbj|AB362337.1| Exchangeable gene trap vector pU-22 neo gene for neomycin phosphotransferase, complete cds
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 3553-3589
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+    - score: 68.0
+      bits: 62.6008
+      expect: 1.17764e-06
+      identities: 36
+      positives: 36
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 6529-6565
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||| ||||||||||||||||||||
+         subject            TAATAACTTCGTATAGTATACATTATACGAAGTTATA
+    - score: 64.0
+      bits: 58.9941
+      expect: 1.43466e-05
+      identities: 35
+      positives: 35
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 4027-4063
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||| |||| |||||||||||||||
+         subject            TAATAACTTCGTATAGGATACTTTATACGAAGTTATA
+    - score: 60.0
+      bits: 55.3874
+      expect: 0.000174777
+      identities: 30
+      positives: 30
+      gaps: 0
+      query-alignment: 169-198
+      hit-alignment: 602-631
+      alignment: |
+         query              TTCGTATAGCATACATTATACGAAGTTATA
+                            ||||||||||||||||||||||||||||||
+         subject            TTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|157065015|gb|EU140754.1| Cloning vector pIndigoBAC-5, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 7464-7500
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|157065014|gb|EU140753.1| Cloning vector pEPIFOS-5, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 7476-7512
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|157065013|gb|EU140752.1| Cloning vector pCC2FOS, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 8139-8175
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+ - title: gi|157065012|gb|EU140751.1| Cloning vector pCC1FOS, complete sequence
+   score: 74.0
+   expect: 2.76954e-08
+   hsps:
+    - score: 74.0
+      bits: 68.0109
+      expect: 2.76954e-08
+      identities: 37
+      positives: 37
+      gaps: 0
+      query-alignment: 162-198
+      hit-alignment: 8097-8133
+      alignment: |
+         query              TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+                            |||||||||||||||||||||||||||||||||||||
+         subject            TAATAACTTCGTATAGCATACATTATACGAAGTTATA
+...

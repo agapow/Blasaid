@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.24+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>20833</BlastOutput_query-ID>
+  <BlastOutput_query-def>GID8KXB01ASQB1 length=41 xy=0210_0447 region=1 run=R_2010_06_04_16_39_59_</BlastOutput_query-def>
+  <BlastOutput_query-len>41</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>20833</Iteration_query-ID>
+  <Iteration_query-def>GID8KXB01ASQB1 length=41 xy=0210_0447 region=1 run=R_2010_06_04_16_39_59_</Iteration_query-def>
+  <Iteration_query-len>41</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|12739794|gb|AC087731.2|</Hit_id>
+  <Hit_def>Felis catus clone RP86-459O8, complete sequence</Hit_def>
+  <Hit_accession>AC087731</Hit_accession>
+  <Hit_len>125661</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>0.173845</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>75135</Hsp_hit-from>
+      <Hsp_hit-to>75166</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>TCTCATCAAGGCAGAACCAAGTTAGCTTGACA</Hsp_qseq>
+      <Hsp_hseq>TCTCTTAAAGGCAGAACCAACATAGCTTGACA</Hsp_hseq>
+      <Hsp_midline>|||| | |||||||||||||  ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|19848412|gb|AC087638.7|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 15, clone RP11-655F8, complete sequence</Hit_def>
+  <Hit_accession>AC087638</Hit_accession>
+  <Hit_len>173062</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3537</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>2.11787</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>134648</Hsp_hit-from>
+      <Hsp_hit-to>134672</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>ATCTCATCAAGGCAGAACCAAGTTA</Hsp_qseq>
+      <Hsp_hseq>ATCTGATCAAGGCAGAACCAATTTA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|259156800|gb|GQ856148.1|</Hit_id>
+  <Hit_def>Cucurbita pepo mitochondrion, complete genome</Hit_def>
+  <Hit_accession>GQ856148</Hit_accession>
+  <Hit_len>982833</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.5503</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>7.39209</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>709846</Hsp_hit-from>
+      <Hsp_hit-to>709828</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>TATCTCATCAAGGCAGAAC</Hsp_qseq>
+      <Hsp_hseq>TATCTCATCAAGGCAGAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|283764889|gb|AC239484.2|</Hit_id>
+  <Hit_def>Callorhinchus milii BAC clone IMCB_Eshark-62H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239484</Hit_accession>
+  <Hit_len>154435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.5503</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>7.39209</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>134913</Hsp_hit-from>
+      <Hsp_hit-to>134936</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TTATTATCTCATCAAGGCAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTATTCTCTCATCAAGGCACAACC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|55725601|emb|CR855369.3|</Hit_id>
+  <Hit_def>Chicken DNA sequence from clone WAG-89C18, complete sequence</Hit_def>
+  <Hit_accession>CR855369</Hit_accession>
+  <Hit_len>112938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.5503</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>7.39209</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>104542</Hsp_hit-from>
+      <Hsp_hit-to>104514</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>TCAAGGCAGAACCAAG-TTAGCTTGACAT</Hsp_qseq>
+      <Hsp_hseq>TCAAGACAGAGCCAAGCTTAGCTTGACAT</Hsp_hseq>
+      <Hsp_midline>||||| |||| ||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20330867|gb|AC092052.2|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3 clone RP11-329N16, complete sequence</Hit_def>
+  <Hit_accession>AC092052</Hit_accession>
+  <Hit_len>203204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.5503</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>7.39209</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>146529</Hsp_hit-from>
+      <Hsp_hit-to>146561</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TATCTCATCAAGGCAGAACCAAGTTAGCTTGACA</Hsp_qseq>
+      <Hsp_hseq>TATCCAATCAAG-CAGAACACAGTTAGCTTGACA</Hsp_hseq>
+      <Hsp_midline>||||  |||||| ||||||  |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|14280278|gb|AC073321.4|</Hit_id>
+  <Hit_def>Homo sapiens BAC clone RP11-307A11 from 2, complete sequence</Hit_def>
+  <Hit_accession>AC073321</Hit_accession>
+  <Hit_len>162208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.5503</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>7.39209</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>33254</Hsp_hit-from>
+      <Hsp_hit-to>33224</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TTATTATCTCATCAAGGCAGAAC-CAAGTTA</Hsp_qseq>
+      <Hsp_hseq>TTATTATCTCATGAAGGCAGAGCAGAAGTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||| |  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|12055058|emb|AJ278430.1|</Hit_id>
+  <Hit_def>Mus musculus mRNA for pristanoyl-CoA oxidase (Acox3 gene)</Hit_def>
+  <Hit_accession>AJ278430</Hit_accession>
+  <Hit_len>2795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.5503</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>7.39209</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>CAAGGCAGAACCAAGTTAGCTTGA</Hsp_qseq>
+      <Hsp_hseq>CAAGACAGAACAAAGTTAGCTTGA</Hsp_hseq>
+      <Hsp_midline>|||| |||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|82779850|gb|AC154239.3|</Hit_id>
+  <Hit_def>Mus musculus BAC clone RP24-164C12 from chromosome 14, complete sequence</Hit_def>
+  <Hit_accession>AC154239</Hit_accession>
+  <Hit_len>161815</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.5503</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>7.39209</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20160</Hsp_hit-from>
+      <Hsp_hit-to>20132</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TTATTATCTCATCAAGGCAGAACCAAGTTAG</Hsp_qseq>
+      <Hsp_hseq>TTATTATC--ATCAAGGCAGAACCATGGTAG</Hsp_hseq>
+      <Hsp_midline>||||||||  ||||||||||||||| | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>14197262</Statistics_db-num>
+      <Statistics_db-len>-120761317</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
+

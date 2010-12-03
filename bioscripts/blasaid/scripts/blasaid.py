@@ -33,6 +33,7 @@ a given format.
 **summarized**. 
 
 """
+# TODO: a blast summariser / reducer script
 
 __docformat__ = 'restructuredtext en'
 __author__ = 'Paul-Michael Agapow <paul-michael.agapow@hpa.org.uk>'
@@ -40,20 +41,23 @@ __author__ = 'Paul-Michael Agapow <paul-michael.agapow@hpa.org.uk>'
 
 ### IMPORTS ###
 
-from os import path, mkdir
+from os import path
 import sys
 from exceptions import BaseException, SystemExit
 import traceback
-import tempfile
 from datetime import datetime
 from itertools import islice
 
 from Bio import AlignIO, SeqIO
+from Bio.Blast import NCBIXML
 
 from bioscripts.blasaid import filter, scriptlog, cluster
 from bioscripts.blasaid.scriptlog import log
 from bioscripts.blasaid.exseqreader import ExSeqReader
 from bioscripts.blasaid.blast import blast_ncbi
+from bioscripts.blasaid.summarywriter import SummaryWriter
+
+from bioscripts.blasaid import fileutils, common
 
 
 ### CONSTANTS & DEFINES ###
@@ -76,9 +80,12 @@ OUTPUT_FORMATS = [
 ]
 DEFAULT_OUTPUT_FORMAT = OUTPUT_FORMATS[0]
 
-# what form to store intermediate sequences in
+# whaere and how to store intermediate sequences in
+SCRATCH_DIR_PREFIX = datetime.now().strftime ("blasaid-scratch-%Y%m%dT%H%M-")
 SCRATCH_FORMAT = 'fastq'
 SCRATCH_EXT = '.fastq'
+
+RESULTS_DIR_PREFIX = datetime.now().strftime ("blasaid-results-%Y%m%dT%H%M-")
 
 BLAST_DIR_NAME = 'blast-results'
 
@@ -89,30 +96,10 @@ _DEV_MODE = True
 	
 ### FILE UTILS
 
-def get_scratch_dir (pth):
-	"""
-	Create a directory for scratch files.
-	"""
-	prefix = datetime.now().strftime ("blasaid-scratch-%Y%m%dT%H%M-")
-	if (pth):
-		return tempfile.mkdtemp (prefix=prefix, dir=pth)
-	else:
-		return tempfile.mkdtemp (prefix=prefix)
-		
-
-def open_file_hndl (paths, mode='w'):
-	"""
-	Join the path components, open the file there and return the handle.
-	
-	A convienience method.
-	"""
-	return open (path.join (*paths), mode)
-	
-
-def open_intermediate_file (base, scratch_dir):
+def create_intermediate_file (base, scratch_dir):
 	#inter_path = path.join (scratch_dir, base + SCRATCH_EXT)
 	#return open (inter_path, 'w')
-	return open_file_hndl ([scratch_dir, base + SCRATCH_EXT])
+	return fileutils.open_for_writing ([scratch_dir, base + SCRATCH_EXT])
 
 
 ### BLAST OPERATIONS
@@ -122,7 +109,7 @@ def make_blast_raw_dir (scratch_dir):
 	Make a directory for the saving of Blast result files.
 	"""
 	res_path = path.join (scratch_dir, BLAST_DIR_NAME)
-	log.debug ("making blast result directory at '%s' ..." % res_path)
+	log.debug ("Making raw blast result directory at '%s' ..." % res_path)
 	mkdir (res_path)
 	return res_path
 
@@ -143,33 +130,16 @@ def blast_seqs (in_file, scratch_dir, result_dir, e_threshold=None,
 			max_hits=max_hits,
 		)
 		blast_cnt += 1
-		scratch_hndl = open_file_hndl ([result_dir, '%s.xml' % seq.id])
-		scratch_hndl.write (res.read())
-		scratch_hndl.close()
+		scratch_hndl = fileutils.write_to_file ([result_dir, '%s.xml' % seq.id],
+			res.read())
 		# reduce and write to results
 		res.seek(0)
-		result_hndl = open_file_hndl ([result_dir, '%s.xml' % seq.id])
-		result_hndl.write (res.read())
-		result_hndl.close()
+		result_hndl = fileutils.write_to_file ([result_dir, '%s.xml' % seq.id],
+			res.read())
 		# summarize
 		
 	## Postconditions & return:
 	log.info ('%s sequences were blasted ...' % blast_cnt)
-
-
-def make_results_dir (result_path=None):
-	"""
-	Create a directory for saving blast results & summaries for the user.
-	
-	This is for the results that the user will always see. Intermediate results
-	(before reduction) are saved in the scratch sub-directory.
-	"""
-	
-	# TODO: need a random suffix like scratch dir?
-	# build path for directory
-	prefix = datetime.now().strftime ("blasaid-results-%Y%m%dT%H%M-")
-	result_path = result_path or '.'
-	return tempfile.mkdtemp (prefix=prefix, dir=result_path)
 		
 		
 def dump_options (opts):
@@ -200,7 +170,7 @@ def merge_and_trim_seqs (input_files, scratch_dir, input_format=None,
 		log.info ('Merging sequences ...')
 		
 	# create & open file for filtered seqs
-	merged_out_hndl = open_intermediate_file ('merged_and_trimmed', scratch_dir)
+	merged_out_hndl = create_intermediate_file ('merged_and_trimmed', scratch_dir)
 	
 	# read in seqfiles
 	seq_cnt = 0
@@ -256,7 +226,7 @@ def filter_seqs (infile, scratch_dir, filters):
 	## Main:
 	log.info ('Filtering sequences ...')
 	# create & open file for filtered seqs
-	filtered_out_hndl = open_intermediate_file ('filtered', scratch_dir)
+	filtered_out_hndl = create_intermediate_file ('filtered', scratch_dir)
 	# read in seqfile
 	filter_cnt = 0
 	log.info ("Reading '%s' ..." % infile)
@@ -293,7 +263,7 @@ def cluster_seqs (infile, scratch_dir, cluster_fn):
 	## Main:
 	log.info ('Clustering sequences ...')
 	# create & open file for results, & open handl for searching / comparing
-	clustered_out_hndl = open_intermediate_file ('clustered', scratch_dir)
+	clustered_out_hndl = create_intermediate_file ('clustered', scratch_dir)
 	search_hndl = open (infile, 'r')
 	# read in seqfile and check seqs one-by-one
 	seq_cnt = 0
@@ -328,11 +298,8 @@ def cluster_seqs (infile, scratch_dir, cluster_fn):
 
 def parse_args():	
 	# Construct the option parser.
-	from optparse import OptionParser
-	optparser = OptionParser (
+	optparser = common.OptionParser (
 		prog          = 'blasaid',
-		usage         = '%prog [options] SEQFILES ...',
-		version       = 'version %s' %  VERSION,
 		description   = 'Reduce and blast NGS data.',
 		epilog        = 'See the README or program documentation for further details',
 	)
@@ -412,7 +379,7 @@ def parse_args():
 		metavar='PERCENT',
 	)
 	
-	optparser.add_option ('--blast-expect',
+	optparser.add_option ('--blast-max-e',
 		dest="blast_expect",
 		type=float,
 		default=None,
@@ -428,6 +395,13 @@ def parse_args():
 		metavar='PERCENT',
 	)
 	
+	# TODO:
+	#blast-max-gaps
+	#blast-min-alignment
+	#blast-min-score
+	#blast-min-bit-score
+	#blast-min-identity
+	
 	# TODO: call this results format?
 	#optparser.add_option ('--output-format', '-o',
 	#	dest="output_format",
@@ -438,59 +412,14 @@ def parse_args():
 	#	metavar='BLAST_FORMAT',
 	#)
 	
-	# TODO: call this output path?
-	optparser.add_option ('--results-path',
-		dest="results_path",
-		type=str,
-		default=None,
-		help='''Where blast results and summaries will be saved. By default this
-			will be in the current directory.''',
-		metavar='NAME',
-	)
-	
-	optparser.add_option ('--scratch-path',
-		dest="scratch_path",
-		type=str,
-		default=None,
-		help='''Where to store intermediate files. By default these will be kept
-			with the system temporary files (e.g. /tmp).''',
-		metavar='NAME',
-	)
-	
-	optparser.add_option ('--dryrun',
-		dest="dryrun",
-		action='store_true',
-		default=False,
-		help='''Parse and filter the sequences but don't run the blast search'''
-	)
-	
-	optparser.add_option ('--dump-options',
-		dest="dump_options",
-		action='store_true',
-		default=False,
-		help='''Print the current value of all program options'''
-	)
-	
-	optparser.add_option ('--verbosity', '-v',
-		dest="verbosity",
-		default='4',
-		help='''How much output to generate.'''
-	)
-	
-	optparser.add_option ('--traceback',
-		action='store_true',
-		dest="traceback",
-		default=False,
-		help='''Exceptions are logged.''' # TODO
-	)
+	optparser.add_results_path_option()
+	optparser.add_scratch_path_option()
+	optparser.add_debug_options()
 	
 	# parse 
 	options, infiles = optparser.parse_args()
 	
 	## Postconditions & return:
-	# need at least 1 input file
-	if (not infiles):
-		optparser.error ('No input files specified')
 	# can only use one clustering method
 	assert (bool(options.cluster_identity) + bool(options.cluster_subsequence) +
 		bool(options.cluster_similar) <= 1), "multiple clustering methods set"
@@ -513,7 +442,8 @@ def main():
 			verbosity=options.verbosity,
 		)
 		
-		scratch_dir = get_scratch_dir (options.scratch_path)
+		scratch_dir = fileutils.create_scratch_dir (SCRATCH_DIR_PREFIX,
+			options.scratch_path)
 		log.info ("Making temporary files at '%s' ..." % scratch_dir)
 		
 		# read in. merge and trim seq files
@@ -546,8 +476,9 @@ def main():
 			# directory for raw results straight from server
 			blast_out_dir = make_blast_raw_dir (scratch_dir)
 			# directory for distilled results
-			results_dir = make_results_dir (options.results_path)
-			log.info ("Making results files at '%s' ..." % results_dir)
+			results_dir = fileutils.make_output_dir (RESULTS_DIR_PREFIX,
+				options.results_path)
+			log.info ("Making final results directory at '%s' ..." % results_dir)
 		
 			result_dir = blast_seqs (work_file,
 				scratch_dir=blast_out_dir,
@@ -557,8 +488,6 @@ def main():
 			)
 			# and combine, reduce & summarize if requested
 
-		
-	
 	except BaseException, err:
 		if options.traceback:
 			traceback.print_exc()

@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.24+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>19605</BlastOutput_query-ID>
+  <BlastOutput_query-def>GID8KXB01A9N0D length=81 xy=0403_0059 region=1 run=R_2010_06_04_16_39_59_</BlastOutput_query-def>
+  <BlastOutput_query-len>81</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>19605</Iteration_query-ID>
+  <Iteration_query-def>GID8KXB01A9N0D length=81 xy=0403_0059 region=1 run=R_2010_06_04_16_39_59_</Iteration_query-def>
+  <Iteration_query-len>81</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|139096518|gb|AC165276.3|</Hit_id>
+  <Hit_def>Medicago truncatula chromosome 2 BAC clone mth2-139p17, complete sequence</Hit_def>
+  <Hit_accession>AC165276</Hit_accession>
+  <Hit_len>128279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>2.70066</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>85282</Hsp_hit-from>
+      <Hsp_hit-to>85262</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>TGCCATGCTTAGAGGATAAGA</Hsp_qseq>
+      <Hsp_hseq>TGCCATGCTTAGAGGATAAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>2.70066</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>85537</Hsp_hit-from>
+      <Hsp_hit-to>85517</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>TGCCATGCTTAGAGGATAAGA</Hsp_qseq>
+      <Hsp_hseq>TGCCATGCTTAGAGGATAAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|74475036|gb|AC163991.3|</Hit_id>
+  <Hit_def>Mus musculus chromosome 15, clone RP24-119L11, complete sequence</Hit_def>
+  <Hit_accession>AC163991</Hit_accession>
+  <Hit_len>152173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>2.70066</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>94283</Hsp_hit-from>
+      <Hsp_hit-to>94263</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>GAGGATAAGAGGATTGCCCAA</Hsp_qseq>
+      <Hsp_hseq>GAGGATAAGAGGATTGCCCAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|309747128|gb|CP002281.1|</Hit_id>
+  <Hit_def>Ilyobacter polytropus DSM 2926, complete genome</Hit_def>
+  <Hit_accession>CP002281</Hit_accession>
+  <Hit_len>2046464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3537</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>9.42622</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1128630</Hsp_hit-from>
+      <Hsp_hit-to>1128611</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GGATTGCCCAAAGAGGTGGA</Hsp_qseq>
+      <Hsp_hseq>GGATTGCCCAAAGAGGTGGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|167538384|ref|XM_001750805.1|</Hit_id>
+  <Hit_def>Monosiga brevicollis MX1 predicted protein MONBRDRAFT_34742 mRNA, complete cds</Hit_def>
+  <Hit_accession>XM_001750805</Hit_accession>
+  <Hit_len>4040</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3537</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>9.42622</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>2906</Hsp_hit-from>
+      <Hsp_hit-to>2877</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>GGATTGCCCAAAGAGGTGGACCACGCTGGC</Hsp_qseq>
+      <Hsp_hseq>GGCTTGCCCAAAGAGGTTGAGCGCGCTGGC</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| || | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|14715658|emb|AL161651.13|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP11-449I17 on chromosome 10 Contains the 5&apos; end of a novel gene (DKFZp434I138) (FLJ10486), a pseudogene similar to part of dynamin 1 (DNM1), a golgin pseudogene, a MKI67 (FHA domain) interacting nucleolar phosphoprotein (MKI67IP) pseudogene, a cyclin D3 (CCND3) pseudogene, the MAP3K8 gene for mitogen-activated protein kinase kinase kinase 8, a heterogeneous nuclear ribonucleoprotein A1 (HRPA1) pseudogene, a pseudogene similar to part of SIN3 homolog A transcriptional regulator (yeast) (SIN3A) and a CpG island, complete sequence</Hit_def>
+  <Hit_accession>AL161651</Hit_accession>
+  <Hit_len>211627</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3537</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>9.42622</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>88629</Hsp_hit-from>
+      <Hsp_hit-to>88601</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>CATGCCATGCTTAGAGGATAAGAGGATTGC</Hsp_qseq>
+      <Hsp_hseq>CATGCCATGCTTAGAGG-TAAAAGGGTTGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| ||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|42517286|gb|AC142113.2|</Hit_id>
+  <Hit_def>Mus musculus BAC clone RP23-444K20 from chromosome 9, complete sequence</Hit_def>
+  <Hit_accession>AC142113</Hit_accession>
+  <Hit_len>188724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3537</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>9.42622</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>49935</Hsp_hit-from>
+      <Hsp_hit-to>49911</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>TGGACCACGCTGGCTATCTTAGGCT</Hsp_qseq>
+      <Hsp_hseq>TGGAGCACGCTGGCTATCCTAGGCT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|58531610|gb|AC151971.3|</Hit_id>
+  <Hit_def>Mus musculus BAC clone RP24-282C4 from 9, complete sequence</Hit_def>
+  <Hit_accession>AC151971</Hit_accession>
+  <Hit_len>179607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3537</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>9.42622</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>48024</Hsp_hit-from>
+      <Hsp_hit-to>48048</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>TGGACCACGCTGGCTATCTTAGGCT</Hsp_qseq>
+      <Hsp_hseq>TGGAGCACGCTGGCTATCCTAGGCT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|31790737|dbj|AP002499.5|</Hit_id>
+  <Hit_def>Homo sapiens genomic DNA, chromosome 11 clone:RP11-107P10, complete sequence</Hit_def>
+  <Hit_accession>AP002499</Hit_accession>
+  <Hit_len>176429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3537</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>9.42622</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>135065</Hsp_hit-from>
+      <Hsp_hit-to>135041</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>AGAGGATAAGAGGATTGCCCAAAGA</Hsp_qseq>
+      <Hsp_hseq>AGAGGGTAAGAGGCTTGCCCAAAGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|31790646|dbj|AP003063.3|</Hit_id>
+  <Hit_def>Homo sapiens genomic DNA, chromosome 11 clone:RP11-65M17, complete sequence</Hit_def>
+  <Hit_accession>AP003063</Hit_accession>
+  <Hit_len>181208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3537</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>9.42622</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>75955</Hsp_hit-from>
+      <Hsp_hit-to>75931</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>AGAGGATAAGAGGATTGCCCAAAGA</Hsp_qseq>
+      <Hsp_hseq>AGAGGGTAAGAGGCTTGCCCAAAGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>14197262</Statistics_db-num>
+      <Statistics_db-len>-120761317</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
+

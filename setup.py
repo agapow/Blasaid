@@ -6,7 +6,7 @@ from bioscripts.blasaid import __version__ as VERSION
 setup (
   name='bioscripts-blasaid',
   version=VERSION,
-  description="Script and code for automatic blasting of NGS data",
+  description="Automatic blasting and summarizing of NGS data",
   long_description=open("README.txt").read() + "\n" +
 	 open(os.path.join("docs", "HISTORY.txt")).read(),
   # Get more strings from
@@ -30,6 +30,7 @@ setup (
   install_requires=[
 	 'setuptools',
 	 'biopython >= 1.49',
+	 'PyYaml',
   ],
   entry_points={
 	 'console_scripts': [

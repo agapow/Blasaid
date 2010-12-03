@@ -1,0 +1,1502 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.24+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>63739</BlastOutput_query-ID>
+  <BlastOutput_query-def>GID8KXB01A34WP length=70 xy=0340_0071 region=1 run=R_2010_06_04_16_39_59_</BlastOutput_query-def>
+  <BlastOutput_query-len>70</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>63739</Iteration_query-ID>
+  <Iteration_query-def>GID8KXB01A34WP length=70 xy=0340_0071 region=1 run=R_2010_06_04_16_39_59_</Iteration_query-def>
+  <Iteration_query-len>70</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|93140970|gb|DQ483807.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 230F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483807</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.01523e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>448</Hsp_hit-from>
+      <Hsp_hit-to>516</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCATGAGTTCTGCCTTCTTTCCCGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||||||| || |   ||| ||||||  |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|93140831|gb|DQ483668.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 91F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483668</Hit_accession>
+  <Hit_len>841</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.8143</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.2368e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>646</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TTAGTTATTAAACTGTTCTTATCTCAACCCATGAGTTTTACTTTTTTCCGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||||||||||||| || |  || | || || |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|93140984|gb|DQ483821.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 244F microsatellite sequences</Hit_def>
+  <Hit_accession>DQ483821</Hit_accession>
+  <Hit_len>1335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.259e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>913</Hsp_hit-from>
+      <Hsp_hit-to>845</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTC--GATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATGAAACTGTTCTTATCTCAACCCACGAGTTTTACCTTCTTTCCTGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| |||||||| || ||||||||||||||||||  | |  || | |||||||  ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.0492553</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>537</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT----CGATTCTCCTCCCCAC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGCTTTTATCTCAACCTGTGAGTTTTACTTTTGTTTTCCCAATCCTCCTCCCCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||| | ||||||||||| ||| |  || | ||  ||    | || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|93140924|gb|DQ483761.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 184F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483761</Hit_accession>
+  <Hit_len>797</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.259e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCA-TTCTTTCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCAT--GAGTTCTACTTTTTTTGATTCTCCTTCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||||||| |  |||||  | || ||| ||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|93140884|gb|DQ483721.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 144F genomic sequence</Hit_def>
+  <Hit_accession>DQ483721</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.259e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCATGAGTTTTACTTTTTTTTCTGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||||||| || |  || | || |||   ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|93140833|gb|DQ483670.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 93F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483670</Hit_accession>
+  <Hit_len>647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.259e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGCTATTAAACTGTTCTTACCTCAACCCATGAGTTTTACTTTTTTTTGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| |||| |||||| ||||||||| |||||||| || |  || | || ||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|93140807|gb|DQ483644.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 67F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483644</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.259e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCACAAGTTTTACCTTCTTTCCCGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||    |  || | ||||||  |||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>2.09439</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>CTGTTCTTATCTCAACCCACGAGTTTTACTTTTTTTTTTTCCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||  | |  || | || |||   | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|93140759|gb|DQ483596.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 19F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483596</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.259e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTC--GATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTCAGTTATTAAACTGTTCTTATCTCAACCCATGAGTTTTACCTTTTTTCCTGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| | ||||||||| |||||||||||||||||| || |  || | || ||||  ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|93140753|gb|DQ483590.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 13F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483590</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.259e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCACGAGTTCTACCTTCTTTCCCGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||  | |   | | ||||||  |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2935286|gb|AF035370.1|</Hit_id>
+  <Hit_def>Forpus passerinus microsatellite FpAAT93 sequence</Hit_def>
+  <Hit_accession>AF035370</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.259e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TATACCTTAGTTATTA-ACTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TATACCTTAGTTACTGGACTGCTCTTATCTCAACCCATGGCAGTTATGTTCTTT-TATTCTCTTCCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  |||| |||||||||||||| ||| ||||   ||||||  |||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|93140894|gb|DQ483731.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 154F genomic sequence</Hit_def>
+  <Hit_accession>DQ483731</Hit_accession>
+  <Hit_len>588</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.83557e-07</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>TTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TTAGTTATTAAACTGTTCTTATCTCAACCCACGAGTTTTACTTTCTTTCCCAATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||||||||  | |  || | ||||||  | |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|93140786|gb|DQ483623.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 46F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483623</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.83557e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>550</Hsp_hit-from>
+      <Hsp_hit-to>481</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCAC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAGCCCACGAGTTCTGCCTTCTTTCCCGATTCTTCTCCCCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||| |||  | |   ||| ||||||  ||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|93140956|gb|DQ483793.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 216F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483793</Hit_accession>
+  <Hit_len>758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.7975</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.40678e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTGGTTATTAAACTGTTCTTATCTCAACCCACGAGGTTTACCTTCTTTCCCGATCCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| || |||||||| ||||||||||||||||||  | |  || | ||||||  |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|93140912|gb|DQ483749.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 172F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483749</Hit_accession>
+  <Hit_len>707</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.7975</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.40678e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>499</Hsp_hit-from>
+      <Hsp_hit-to>431</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAGCCCACGAGTTTTACCTTCTTTCCCAATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||| |||  | |  || | ||||||  | |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|93140892|gb|DQ483729.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 152F microsatellite sequences</Hit_def>
+  <Hit_accession>DQ483729</Hit_accession>
+  <Hit_len>826</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.7975</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.40678e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTC--GATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCGTATCTCAACCCATGAGTTTTACCTTTTTTCCTGATTCTGCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||| ||||||||||| || |  || | || ||||  |||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|93140803|gb|DQ483640.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 63F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483640</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9941</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.23619e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGT--TGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTTAACC--TACGAGTTCTACCTTCTTTCCCGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||| ||||  |  ||||  | | ||||||  |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|93140799|gb|DQ483636.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 59F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483636</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9941</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.23619e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCA------TTCTTTCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAGCCC--AGGAGTTTCACTACTTTTTTTTTGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||| |||   |||||| ||      || ||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|93140787|gb|DQ483624.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 47F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483624</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9941</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.23619e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC----GTGGGAGTTGCATTCTTTCGATTCTCCTCCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCACAAGTTTTACTT-CTTTTTTTCGATTCTCCTCCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||    ||   | || | || ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2935289|gb|AF035373.1|</Hit_id>
+  <Hit_def>Forpus passerinus microsatellite FpAAT198 sequence</Hit_def>
+  <Hit_accession>AF035373</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9941</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.23619e-06</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>TTATCTCAACCCGTGGGAGTTGCATTCTTTCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TTATCTCAATCCATGGGAGTTACATTTTTTCAATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||| || |||||||| |||| |||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|93140997|gb|DQ483834.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 257F microsatellite sequences</Hit_def>
+  <Hit_accession>DQ483834</Hit_accession>
+  <Hit_len>1865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.80505e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1459</Hsp_hit-from>
+      <Hsp_hit-to>1511</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAGCTGTTCTTATCTCAACCCATGAGTTCTGCCTTCTTTC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||||||| || |   ||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|93140993|gb|DQ483830.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 253F microsatellite sequences</Hit_def>
+  <Hit_accession>DQ483830</Hit_accession>
+  <Hit_len>1116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.80505e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTT--TCGATTCTCCTCCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGGTATTAAACTGTTCTTATCTCAACCCATGAGTTTTACCTTTTTCCCCGATTCTCCTCCC</Hsp_hseq>
+      <Hsp_midline>||| |||| |||||| |||||||||||||||||| || |  || | || ||   |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|93140923|gb|DQ483760.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 183F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483760</Hit_accession>
+  <Hit_len>765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.80505e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>583</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTC--GATTCTCCTCCCCAC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCACGAGTTTTACCTTGCTTCCTGAGTCTCCTCCCCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||  | |  || | ||  |||  || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|93140820|gb|DQ483657.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 80F microsatellite sequences</Hit_def>
+  <Hit_accession>DQ483657</Hit_accession>
+  <Hit_len>778</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.80505e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>587</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTT-TCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCGTATCTCAACCCATGAGTTTTACCTTTTTCCCGATTCTGCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||| ||||||||||| || |  || | || ||  ||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|93140837|gb|DQ483674.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 97F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483674</Hit_accession>
+  <Hit_len>706</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.72423e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>524</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATTCTCCTCCCCAC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCGACCCAT--GAGTTTTACTTTTTC-TTCCTCCTCCCCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||| |||| |  |||||  | | ||||  | |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|93140817|gb|DQ483654.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 77F microsatellite sequences</Hit_def>
+  <Hit_accession>DQ483654</Hit_accession>
+  <Hit_len>576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.72423e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATTC--TCCTCCCCAC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCATGAGTTTTACCTTTTTT--TTTCCTTCCTCCCCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||||||| || |  || | || |||   |||  ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|93140810|gb|DQ483647.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 70F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483647</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.72423e-05</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>TAGTTATTAACTG-TTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TAGTTATTAAATCATTCTTATCTCAACCCACGAGTTTTACCTTCTTTCCCGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |  |||||||||||||||  | |  || | ||||||  |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|93140793|gb|DQ483630.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 53F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483630</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.72423e-05</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>ACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCAT----TCTTTC--GATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>ACTTTAGTTATTAAACCGTTCTTCTCTCAACCCATGAGACTTACTTACCTTCTTTCCCGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| | |||||| ||||||||| || || || | |    ||||||  ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|2935284|gb|AF035368.1|</Hit_id>
+  <Hit_def>Forpus passerinus microsatellite FpAAT54 sequence</Hit_def>
+  <Hit_accession>AF035368</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.72423e-05</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TTTTTATTTCAACCTGTGGGATTTACGTTCTTTTGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>|| |||| |||||| |||||| || | |||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|93140899|gb|DQ483736.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 159F genomic sequence</Hit_def>
+  <Hit_accession>DQ483736</Hit_accession>
+  <Hit_len>571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.5085e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATT--CTCCTCCCCAC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCATGAGTTTTACCCTTTTTTTTTTCCCTCCTCCCCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||||||| || |  || |  | |||   ||  |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|93140856|gb|DQ483693.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 116F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483693</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.5085e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>415</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT---CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCACGAGTTTTACCTTTTTTTTCTGATCCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||  | |  || | || |||    ||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|93140772|gb|DQ483609.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 32F microsatellite sequences</Hit_def>
+  <Hit_accession>DQ483609</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.5085e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>411</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATT--CTCCTCCCCAC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCATGAGTTTTACCTT-TTTCTTTTTCCTCCTTCCCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||||||| || |  || | || ||||  ||  ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|93140239|gb|DQ483863.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 29G microsatellite sequences</Hit_def>
+  <Hit_accession>DQ483863</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.5085e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGATT--CTCCTCCCCAC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCCATGAGTTTTACCTT-TTTCTTTTTCCTCCTTCCCAC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||||||||||||||| || |  || | || ||||  ||  ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|93140072|gb|DQ483305.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 8H genomic sequence</Hit_def>
+  <Hit_accession>DQ483305</Hit_accession>
+  <Hit_len>703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.5085e-05</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>459</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT----CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TTAGTTATTAAACTGTTCTTATCTCAACCCATGAGTTTTACTTTTTTTTCCCCGATCCTCCTGCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||||||||||||| || |  || | || |||    |||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|299560780|gb|GU135613.1|</Hit_id>
+  <Hit_def>Myzomela rubratra clone Mr16 microsatellite sequence</Hit_def>
+  <Hit_accession>GU135613</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000331879</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>AGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTTCGA-TTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>AGTTATTAAGCTGTTCTTACCTCAACCTGAGGGCTCTACCTTTTTTCCAATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||| ||||||| | |||   | | || |||| | ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|93140995|gb|DQ483832.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 255F genomic sequence</Hit_def>
+  <Hit_accession>DQ483832</Hit_accession>
+  <Hit_len>1198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000331879</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>713</Hsp_hit-from>
+      <Hsp_hit-to>781</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATT-AACTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACCGTTCTTATCTTAACCCACAAGTTTTACCTTCTTTCCCGATTTTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||| ||| |||||||||| |||||    |  || | ||||||  ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|93140845|gb|DQ483682.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 105F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483682</Hit_accession>
+  <Hit_len>757</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000331879</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTCGTTATTAAACTGCTCTTATCTCAACCCACGAGTTTTACTTTTTTTCCCGATCCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| || |||||||| ||| ||||||||||||||  | |  || | || |||  |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|93140804|gb|DQ483641.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 64F genomic sequence</Hit_def>
+  <Hit_accession>DQ483641</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000331879</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT--CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTACTTAGTAAACCATTCTTATCTCAACCCATGAGTTTTACCTTCTTTCCCAATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||| ||| ||| |  ||||||||||||||| || |  || | ||||||  | |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|93140972|gb|DQ483809.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 232F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483809</Hit_accession>
+  <Hit_len>815</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>376</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCATTCTTT----CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTATTCTTATCTCAACCC--ACGAGTTTTATTTTTTTTCCCAATCCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| || |||||||||||||||    |||||  ||| |||    | || ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|93140943|gb|DQ483780.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 203F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483780</Hit_accession>
+  <Hit_len>1041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.0492553</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>776</Hsp_hit-from>
+      <Hsp_hit-to>720</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>AACTGTTCTTATCTCAACCCGTG-GGAGTTGCA---TTCTTTCGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>AACTGTCCTTATCTCAACCCATGAGGTTTTACATTTTTCTTCCAGTTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||||| || ||  || ||   ||||| |  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|93140937|gb|DQ483774.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 197F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483774</Hit_accession>
+  <Hit_len>1177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|93140932|gb|DQ483769.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 192F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483769</Hit_accession>
+  <Hit_len>661</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>424</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|93140903|gb|DQ483740.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 163F microsatellite sequences</Hit_def>
+  <Hit_accession>DQ483740</Hit_accession>
+  <Hit_len>1337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|93140900|gb|DQ483737.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 160 genomic sequence</Hit_def>
+  <Hit_accession>DQ483737</Hit_accession>
+  <Hit_len>617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|93140898|gb|DQ483735.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 158F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483735</Hit_accession>
+  <Hit_len>645</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|93140888|gb|DQ483725.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 148F genomic sequence</Hit_def>
+  <Hit_accession>DQ483725</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|93140858|gb|DQ483695.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 118F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483695</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|93140811|gb|DQ483648.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 71F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483648</Hit_accession>
+  <Hit_len>567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|93140806|gb|DQ483643.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 66F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483643</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|93140800|gb|DQ483637.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 60F genomic sequence</Hit_def>
+  <Hit_accession>DQ483637</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TACCTTAGTTATTAA-CTGTTCTTATCTCAACCC</Hsp_qseq>
+      <Hsp_hseq>TACTTTAGTTATTAAACTGTTCTTATCTCAACCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|93140791|gb|DQ483628.1|</Hit_id>
+  <Hit_def>Gymnogyps californianus contig 51F microsatellite sequence</Hit_def>
+  <Hit_accession>DQ483628</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00115837</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>379</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TTAGTTATTAA-CTGTTCTTATCTCAACCCGTGGGAGTTGCA-TTCTTT------CGATTCTCCTCCCCA</Hsp_qseq>
+      <Hsp_hseq>TTAGTTATTAAACCGTTCTTATCTCAACCC--AGGAGTTTTACTTCTTTTTTTTCTGATTCTCCTCCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||| | ||||||||||||||||   ||||||  | ||||||       ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>14197262</Statistics_db-num>
+      <Statistics_db-len>-120761317</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
+

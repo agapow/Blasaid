@@ -1,0 +1,2699 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.24+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>2625</BlastOutput_query-ID>
+  <BlastOutput_query-def>GID8KXB01A607Y length=351 xy=0373_0092 region=1 run=R_2010_06_04_16_39_59_</BlastOutput_query-def>
+  <BlastOutput_query-len>351</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>2625</Iteration_query-ID>
+  <Iteration_query-def>GID8KXB01A607Y length=351 xy=0373_0092 region=1 run=R_2010_06_04_16_39_59_</Iteration_query-def>
+  <Iteration_query-len>351</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|115312336|gb|AC186869.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone TAM32-82L14 from chromosome w, complete sequence</Hit_def>
+  <Hit_accession>AC186869</Hit_accession>
+  <Hit_len>156874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.966</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>3.82464e-33</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>139066</Hsp_hit-from>
+      <Hsp_hit-to>138830</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCA--GAGGTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACATCCACTGCTCTCCCCCCATCTACCCAACCAGTGATGACATCATAGAAGGCTATCAGGTTGGTCAAGTATGATTTACCCTTGGTGAATCCATGTTGACTACTCCTGATAACTTTCTTCTCTTCCAGTTGCTTGTAAAGGGTATCCAGTGCGAGTTGTTCCATCACCTTTCCAGGGACGT-GGGTGAGGCTGACTGGCCT-TTAGTTTCCCAGGTCCTCCTTCTTGCCCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||| |||| | | ||||||| |   |||||  ||||||||||| |||||| ||| ||||||| |||||  | |||||||| | ||||||||  || |||||| | |||| ||  |||||| ||| ||  |||||    |  || ||||||| ||| |||  || ||   ||| ||||||| ||| |   ||  |||||| |||||||| |||||| | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.62771e-12</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>150068</Hsp_hit-from>
+      <Hsp_hit-to>150242</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ACATCCATCACCCTTCCCCTGTCCACCAAAGCCGTCAGTCCATCATAGAAGGCCACCAGATTGGTCAGGCAAGATCTGCCCTTGGTGAAGCCATGCTGGCTGTCTCGAATCACCTCTTTATCCTGTATGTGACTTAACATAGCTTCTAGGAGGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||  || ||||||   |||| |||| | ||||   |||||  |||||| | ||  ||||| | ||| ||| |||||||  | || |||||||  ||    | |||||| |   | || |  || ||  | || || ||||| ||||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>77.0278</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>6.92122e-11</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>125036</Hsp_hit-from>
+      <Hsp_hit-to>124862</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ACATCCATCACCCTTCCCCTGTCCACCAAAGCCGTCAGTCCATCATAGAAGGCCACCAGATTGGTCAGGCAAGATCTGCCCTTGGTGAAGCCATGCTGGCTGTCTCGAATCACCTCTTTATCCTGTATGTGACTTAACATACCTTCTAGGAGGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||  || ||||||   |||| |||| | ||||   |||||  |||||| | ||  ||||| | ||| ||| |||||||  | || |||||||  ||    | |||||| |   | || |  || ||  | || ||  |||| ||||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.41574e-10</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>101190</Hsp_hit-from>
+      <Hsp_hit-to>101037</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>TCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCA-ATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>TCCATCGATGCCATCACTCCATCATAGAAGGCCACCAGATTGGTGAGGCATGATTTGCCTCTGGTGAAGCCATGCTGGCT-GTCTCAGATCACCTGCTTGCCCTTCATGTGCCTTAACATCTCTTCCAGGAGAATCTCTTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||| |  |  ||||  |||||  |||||| | ||  ||||| | ||||||||||||  |  | || |||||||  ||  || || ||||| | | || | ||||| ||| | || ||  |||||||||  ||||  ||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>68.0109</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>3.58528e-08</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>57336</Hsp_hit-from>
+      <Hsp_hit-to>57432</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCT</Hsp_qseq>
+      <Hsp_hseq>ACATCAACAGCCTTTCCCTCATCCACCAGACGGGTCACTAGATCATAGAAGGAGATCAGGTTGGTCAAGCAGGACCTGCCCTTCTTGAACCCATGCT</Hsp_hseq>
+      <Hsp_midline>||||| ||  |  |||||||||||| || ||  |||||   ||||  |||||  |||| |||||| ||||| ||  |||||||| | || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|85702736|gb|AC171011.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-112C5 from chromosome ul, complete sequence</Hit_def>
+  <Hit_accession>AC171011</Hit_accession>
+  <Hit_len>230767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.949</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.98121e-30</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>160929</Hsp_hit-from>
+      <Hsp_hit-to>160689</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>ATAAA-AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCA-TATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAA-GTGCG-GCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTT</Hsp_qseq>
+      <Hsp_hseq>ATAAACAACATCCAGTGCTCTTCCCTCATTCATCAGGCTAGCCATTTTGTCCCAAAAAGTCTTCAGGTTGGTTAAGCGTGATTTTACCTTCATAAATTCATGCTGACTACTCCCAATTCCCATCATGTCTTTCATTATGTTTTAAAATGGCTTCCAGGAAGATTCAGTGCATCACCAACCCACGGATCAAGGTGAGAGCAG-CTGGCAT-GTAGTTTCCCAGATCCTCCTTTTTGTCCTTCTT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||| | |||||||||||| |||||  | || ||  |  || |  || |   ||| ||||||||||| ||||||  ||||||||||| |||||| ||||||||||||  |  || ||||||||| |||| || ||||||||||||||||  ||    | ||||| |  ||||  | |||| ||| | || | | ||| |   ||  ||||||||||||||| ||| || ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>1.42783</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>183793</Hsp_hit-from>
+      <Hsp_hit-to>183650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>CATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTT------CATAAATCCATGCTCACTACTCCCAATCACTTTC-CTGTCTTT--CATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>CATCATAAAAGGTTACCAGGTTTGTCAGGCATGACTTATCCTTAACAAACATGAAACCATGTTTGTTACCACAAATCACCTTGTCTTTATTTTCCATGTGCCTCAGTAGGGCCTTCAGGAGGATCTGCTCCATGATCTTGCCAG</Hsp_hseq>
+      <Hsp_midline>|||||   |||| || || ||| || | |||||| ||  ||||      ||| || ||||| |   |||  | |||||| ||  || | |||  ||| ||| | |  | ||| | |||||  ||||||||||| | ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|218135460|gb|AC206046.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-109D11 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC206046</Hit_accession>
+  <Hit_len>209108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.342</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.41361e-29</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>349</Hsp_query-to>
+      <Hsp_hit-from>177412</Hsp_hit-from>
+      <Hsp_hit-to>177648</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>TCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAA-GTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAATA--AATGACATTT</Hsp_qseq>
+      <Hsp_hseq>TCACTCATCCATCATACTGGTGATTTAATTAGTGGAGCTTACAAGGTTGGTCAAGCATGATTTCCCTTTGTTGAATCCATGCTGACAACTCCTGATGATTTTCAACTCCTTCATATGCCTGGAAATGGTTTCCAGGCACAGCTGCTCCATAAGCTTTTCAGGGATCAAGGTGAGGCTGACTGACTTGTAGTTTCCCCAGGTCCTCTTTCTTGCCCTTCTTGAATATGAGTGACATTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| ||  || |  | || |  | ||  ||  | |||||| ||||||||||| || ||  | |||||||||| || |||||  || | ||||   || ||||||||| || |||||| |||||||   | ||||||||| |||||  ||| | |||| ||| ||||||| | |||  |     ||||| ||||| || |||||| |||||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.000226256</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>136856</Hsp_hit-from>
+      <Hsp_hit-to>136968</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>TTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCA-ATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCC</Hsp_qseq>
+      <Hsp_hseq>TTGGTCAGGCAGGACCTGCTCTTGGTGAAACCATGCTGGTT-CTCCCACATCATCTCCCTCTCTTCCATGTGCCTTGGAATACCTTCCAGGAGGATCTGCTCCATGGTCTTCCC</Hsp_hseq>
+      <Hsp_midline>||||| | ||| ||  ||| |||  | || |||||||   | |||||| ||||  | ||| |||| ||| ||| |   |||  |||||||||  |||||||||||   ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|110612004|gb|AC187365.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-8P6 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC187365</Hit_accession>
+  <Hit_len>149093</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.342</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.41361e-29</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>349</Hsp_query-to>
+      <Hsp_hit-from>88482</Hsp_hit-from>
+      <Hsp_hit-to>88246</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>TCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAA-GTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAATA--AATGACATTT</Hsp_qseq>
+      <Hsp_hseq>TCACTCATCCATCATACTGGTGATTTAATTAGTGGAGCTTACAAGGTTGGTCAAGCATGATTTCCCTTTGTTGAATCCATGCTGACAACTCCTGATGATTTTCAACTCCTTCATATGCCTGGAAATGGTTTCCAGGCACAGCTGCTCCATAAGCTTTTCAGGGATCAAGGTGAGGCTGACTGACTTGTAGTTTCCCCAGGTCCTCTTTCTTGCCCTTCTTGAATATGAGTGACATTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| ||  || |  | || |  | ||  ||  | |||||| ||||||||||| || ||  | |||||||||| || |||||  || | ||||   || ||||||||| || |||||| |||||||   | ||||||||| |||||  ||| | |||| ||| ||||||| | |||  |     ||||| ||||| || |||||| |||||||||  | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.000226256</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>129038</Hsp_hit-from>
+      <Hsp_hit-to>128926</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>TTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCA-ATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCC</Hsp_qseq>
+      <Hsp_hseq>TTGGTCAGGCAGGACCTGCTCTTGGTGAAACCATGCTGGTT-CTCCCACATCATCTCCCTCTCTTCCATGTGCCTTGGAATACCTTCCAGGAGGATCTGCTCCATGGTCTTCCC</Hsp_hseq>
+      <Hsp_midline>||||| | ||| ||  ||| |||  | || |||||||   | |||||| ||||  | ||| |||| ||| ||| |   |||  |||||||||  |||||||||||   ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|189011790|gb|AC210628.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-147H3 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC210628</Hit_accession>
+  <Hit_len>201103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>8.42432e-29</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>61773</Hsp_hit-from>
+      <Hsp_hit-to>61954</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>ATAAA-AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ATAAACAATACCCACTGTTTTCCCTTCATCCATCATGCCAGTCACATCATCATAGAAGGCTGTCACATTTCTGATGCATGATTTCACCTTCATAAATTCATGCTGACTACTCCTAGTCACCTTCCTGTCCTCAACATGTTTGAAAAGAGTTTCTGAGATTATTTGCTCCATGACCTTTCCAG</Hsp_hseq>
+      <Hsp_midline>||||| || | |||||  | | || ||||||||||  |||||||| ||||||  ||||||| |||  ||  | | |||||||||  ||||||||||| |||||| |||||||| | |||| |||||||| |  | ||| |||||||  | |||   |||||| |||||||| | ||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>86.0446</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>1.33611e-13</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>168745</Hsp_hit-from>
+      <Hsp_hit-to>168506</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>GTTGAAGCCACAATAAA-AACATCCACTACTCTTCCCTC-ATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAGT-GCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTT</Hsp_qseq>
+      <Hsp_hseq>GTTGAAGTCAAGGTACACAACATCCACTGTTCT-CCCTCTATCTACCTGGCCAGTGATGACATCATAGAAAGCTACCAGGTTGGCTGAGCATGACTTCCCCATGATGAATCCATGTTTACTACTCCTGATAATCTTATTCTCTTCCAATTGCTTGGAGATGGTATCCAGAACAAGTTGTTCCACCTTCTTTCTAGGGAAGGAGTTGAGACTAATTGGCCTATA-GATTCCCAGATCCTCCTT</Hsp_hseq>
+      <Hsp_midline>||||||| ||   || | ||||||||||  ||| ||||| ||| | |   ||||| |   |||||  ||| |||| || ||||| | ||||||| || ||| | || |||||||| | ||||||||  || |  ||  | |||| ||  |||||| | ||||  ||||| |  |  || |||| |  ||| | || |    ||| | | || |  ||| || | || |||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.62771e-12</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>69847</Hsp_hit-from>
+      <Hsp_hit-to>70080</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCAC-TACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAG-TGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACATCCACTGCCCTCCCTCCATCTACCCGGACAGTGATGTCATCATAGAAAGCTACCAGGTTTGTTGAGCATGATTTTCCCTTTGTGAATCCACGTTGTCCTACTCCTGGTAACCTTCTTCTCTTCCAATTGCAT----ATGGCATACAGAACAAGTTGTTCCATCACATTTTCAGGGATGGAGGTGAGTCTGACTGGTCTGCA-GTTTTCCAGATCCTCCTTCTTGCCCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| | || ||  |||| | |    |||| |  ||||||  ||| |||| || ||| ||| |||||||||| |||||  | |||||| | |  | ||||||   | || ||| | |||| ||  ||| |    ||||| | ||| |  |  || |||||||  ||  ||| | |  || || | ||||| ||  | || |  | ||||||||||||| |||||| | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00078971</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>60384</Hsp_hit-from>
+      <Hsp_hit-to>60467</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>TTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCT</Hsp_qseq>
+      <Hsp_hseq>TTCCCTCATCCACCAGACAGATCACTAGATCATAGAAAGAGATCAGGTTGGTCAAGCAGGACCTGCCCTTTGTGAACCCATGCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| || ||   ||||   ||||  ||| |  |||| |||||| ||||| ||  |||||||  | || |||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.00275636</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>13020</Hsp_hit-from>
+      <Hsp_hit-to>13262</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>CACAATAAA-AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACC--GAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAG-TGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>CACAGTACACAACATCCACTGCTCTCTCCCCATCCACCCAGCCAGCAA--TGATGACATAGAAAACTACCAGGTATTTTGAGAATGATTTTTCCTTGGTGAATCCATATTTACTACTCCTGGTTACCTTCTTCTCTTCCAATTGCTTGGAGAGGGTGTCCAAAACAAGTTGTTCTATCATGTTTCCAAGGATGGAGGTGAGACTGACTGGTCTGTAGT--TTCCAGATCCTCC---TTGCCCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||| || | |||||||||| ||||  || |||||| | | ||||  |  | || ||   |||  ||| || ||   || || |||||||  ||||  | |||||||  | ||||||||   | || ||| | |||| ||  |||||| | | ||  ||||  |  |  || || ||||  || |||  | |  || || | ||||| ||  |  |    | |||||||||||   |||||| | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.40908</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>145289</Hsp_hit-from>
+      <Hsp_hit-to>145152</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>CATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTC-CTGTCTTT--CATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>CATCATGAAAGGCCATCAGATTTGTCAGGCATGACTCGCCCTTGGTGAAGCCATGTTGATTACCATCAGTCACCTCATCTTTATTTTCCATGTGCCTTAGTAGGGACTTCAGGAGGATCTGCTCCATGATCTTGCCAG</Hsp_hseq>
+      <Hsp_midline>|||||   ||||| ||||  || || | |||||| | ||||||  | || ||||| | | |||   || |||| |   || | |||  ||| ||| | |  | ||  | |||||  ||||||||||| | ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|297139864|gb|AC239493.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-104H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239493</Hit_accession>
+  <Hit_len>147332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.522</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>4.36391e-26</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>321</Hsp_query-to>
+      <Hsp_hit-from>91600</Hsp_hit-from>
+      <Hsp_hit-to>91374</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>CAATAAAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCT</Hsp_qseq>
+      <Hsp_hseq>CAATAACA-CGTCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAAGCATGATTTGCCCTTGGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAGTGCTTCAGAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGG-TCTGTAGTTCCCCAGATCCTCCT</Hsp_hseq>
+      <Hsp_midline>|||||| | | |||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || |||||||||||||||||  | |||||||||| |||  |||  ||||||||||| || |  |  ||||| | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| || |    ||   |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|289526462|gb|AC239231.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-71H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239231</Hit_accession>
+  <Hit_len>139915</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.522</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>4.36391e-26</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>96995</Hsp_hit-from>
+      <Hsp_hit-to>96758</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGA</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCATGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCCTTTTTTGA</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | |||||| || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||  | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|113951809|gb|AC188692.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-150K2 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC188692</Hit_accession>
+  <Hit_len>178576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.522</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>4.36391e-26</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>132417</Hsp_hit-from>
+      <Hsp_hit-to>132644</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAG-TGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACATCCACTGCTCTCCCTCCATCTACCCAGCCAGTGATGACATCACAGAAGGCTATTAGCTTGGTCAAGCATGATTTCCCCTTGGTCAATCCATGCTGACTACTCCTGATAACCTTCTTCTCTTCCACTTGCTTGGAGGTGACATCCAGAACAAGTTGTTCCATTAGTTTTCCAGGGATGGAGATGAGGCTGACTGG-TCTCTTGTTTCTCAGATTCTCCTTTTTGCC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||  |||| | | | ||||| |   |||||| ||||||||| |  ||||| ||||||||||| |||||  | |||||||||| ||||||||  || || ||| | |||| ||  |||||| |  || | ||||| |  |  || ||||| || || |||| | |  || || ||||||| || |  |  |  || ||||| |||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.0335793</Hsp_evalue>
+      <Hsp_query-from>244</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>116761</Hsp_hit-from>
+      <Hsp_hit-to>116670</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>CTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAGTGC-GGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTG</Hsp_qseq>
+      <Hsp_hseq>CTCCCAGGATGATTTGTTCCATAACCTTCCCTGGCATCGAGGTCAGGCTGACGGGCCTGTA-GTTCCCCAGATCCTCCTTATGGCCCTTCTTG</Hsp_hseq>
+      <Hsp_midline>|| ||||||| || || ||||| | |||||| |   || ||  | ||||||| ||| |  | |   |||||||||||||| | |||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>1.42783</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>144329</Hsp_hit-from>
+      <Hsp_hit-to>144191</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>CATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTT--TC-CTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGA</Hsp_qseq>
+      <Hsp_hseq>CATCATAAAAGGCCACCAAGTTTGTCAGGGACAATTTGCCCTTCGTGAAGCCATGCTGGTTACCACCAGTTACCTCATCTTTATTTTCCATTTGCCTTATTAAGGCCTTCAGGAGGATAAGCCCCATTATCTTGCCAGA</Hsp_hseq>
+      <Hsp_midline>|||||   ||||| | |||||| || | | |  ||||||||||| | || |||||||   |||  ||| | || |  ||  | | || ||| ||| | |  | ||| | |||||  ||  || |||| | ||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|295681562|gb|AC239229.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-65H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239229</Hit_accession>
+  <Hit_len>154768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.719</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.52315e-25</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>34150</Hsp_hit-from>
+      <Hsp_hit-to>33921</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCATGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | |||||| || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.85558e-24</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>34639</Hsp_hit-from>
+      <Hsp_hit-to>34868</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGTTTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.85558e-24</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>36931</Hsp_hit-from>
+      <Hsp_hit-to>36702</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCTTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTTGTCAGGCACGACTTCCCCTTCATGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | || |||||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||||| |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.85558e-24</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>38665</Hsp_hit-from>
+      <Hsp_hit-to>38436</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>120.309</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>6.47661e-24</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>31241</Hsp_hit-from>
+      <Hsp_hit-to>31479</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGACAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCTA-TAGTTCCCCGGATCCTCCTCCTTCCCTTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||| | || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| ||  ||   ||| |||||||||  || ||  | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>120.309</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>6.47661e-24</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>37348</Hsp_hit-from>
+      <Hsp_hit-to>37571</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTT</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTTTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATAATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| ||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>7</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.26056e-23</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>30280</Hsp_hit-from>
+      <Hsp_hit-to>30050</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>AAAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AAACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACCACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-CTAGTTCCCTGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | |||  | || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| | | ||   ||  |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>8</Hsp_num>
+      <Hsp_bit-score>118.505</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.26056e-23</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>39623</Hsp_hit-from>
+      <Hsp_hit-to>39862</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCA-GCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCTA-TAGTTCCCCGGATCCTCCTCCTTCCCTTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |   || |||| |  | | ||| ||||||| ||| ||  ||   ||| |||||||||  || ||  | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>9</Hsp_num>
+      <Hsp_bit-score>116.702</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>7.89013e-23</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>36293</Hsp_hit-from>
+      <Hsp_hit-to>36064</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCCTCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTTTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATAATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | ||| |||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>10</Hsp_num>
+      <Hsp_bit-score>116.702</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>7.89013e-23</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>40511</Hsp_hit-from>
+      <Hsp_hit-to>40282</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACCACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-CTAGTTCCCTGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | |||  | || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| | | ||   ||  |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>11</Hsp_num>
+      <Hsp_bit-score>113.095</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>9.61215e-22</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>32902</Hsp_hit-from>
+      <Hsp_hit-to>32673</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTTATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGTGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | |||| |||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  |   | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>12</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.40908</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>111040</Hsp_hit-from>
+      <Hsp_hit-to>111093</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACT</Hsp_qseq>
+      <Hsp_hseq>GAAAGCTTTCAGGTTGGTTTGACATGATTTGTTCTTGGCAAATCCATGCTGACT</Hsp_hseq>
+      <Hsp_midline>||| ||| ||| |||||||   |||||||||  |||   ||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|126506421|gb|AC177807.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-183A10 from chromosome w, complete sequence</Hit_def>
+  <Hit_accession>AC177807</Hit_accession>
+  <Hit_len>186509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.719</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.52315e-25</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>86876</Hsp_hit-from>
+      <Hsp_hit-to>87037</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>TCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCC</Hsp_qseq>
+      <Hsp_hseq>TCTCCTCTCATCCATCAGGCCAGTCACTTAATCACAGAACGTTATCAGGTTGGTCAAGCATGACTATCCCTTGGTGAATCCATGTTGGCTATTCCTGATGACTTTCTTGTCCTTTGTGTGCCTGGAAATAGTTTCCAGGATTAGCTGTTCCATCACCTTTCC</Hsp_hseq>
+      <Hsp_midline>||| | |||||||||||  |||||||| | ||||| ||| | ||||| |||||| |||||||| |  |||||  | |||||||| |  ||| |||  || |||||| |||| ||  | ||| || |||| | ||||||||||| ||| ||||||| ||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.171e-20</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>148280</Hsp_hit-from>
+      <Hsp_hit-to>148513</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGT-CAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACATCCACTGCTCTCCC---ATCTACCCAGCCAGAGATGACATCATAGAAGGCTATCAGGTTGGTCAAGCATGATTTCCCCTTGGTGAATCCATGTTGACTTCCCCTGATAACCACCTTTTCTTCCAATTGCTTGGAGATGGCATCCAGAACAAGTTGTTCCATCACATTTCCAGGGATGGAGGTGAGGCTGACTGGCCT-GTAGTTTCCTGTATCCTCCTTCTTGCTCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||   ||| | | | ||||  |   |||||  ||||||||||| |||||| ||||||||||| |||||  | |||||||| | ||| | ||  || ||   | | |||| ||  |||||| | ||||| ||||| |  |  || |||||||  || |||| | |  | ||| ||||||| ||| |   ||  |||   ||||||||| |||| | | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.06593e-18</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>176784</Hsp_hit-from>
+      <Hsp_hit-to>176550</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGT-CAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACATCCACTGCTCTCCCC--ATCTACCCAGCCAGGGATGAAATCATTGAAAGCTACCAGGTTGGTCAAGCATGATTTCCCCTTGGTGAATCCATGTTGACTTCCCCTGATAACCACCTTTTTTTTCAATTGCTTGGAGATGGCATCCAGAACAAGTTGTTCCATCACATTTCCAGGGATGGAGGTGAGGCTGACTGGCCT-GTAGTTTCCTGTATCCTCCTTCTTGCTCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| |||  ||| | | | ||||  |    ||||  ||| |||| || |||||| ||||||||||| |||||  | |||||||| | ||| | ||  || ||   | | | |||||  |||||| | ||||| ||||| |  |  || |||||||  || |||| | |  | ||| ||||||| ||| |   ||  |||   ||||||||| |||| | | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.117203</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>132181</Hsp_hit-from>
+      <Hsp_hit-to>132401</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>TTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCC-AGAGGTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTG</Hsp_qseq>
+      <Hsp_hseq>TTCCCTCATCTACCAGTCTGGTCACCCAGTCATATAAGGAAATGAGGTTGGTCAAGCACGACCTGCCTTTCATGAACCCATGTTGACTATGCCTGATCCCCGGGTTGTCCCTCACATGCCGTGTGATCTCCCTCAAGACAATCTGCTCCATAACCTTCCCTGGCACTGAGGTCAGGCTAACAGGCCT-GTAGTTCCCCAGATCCTCCTTACAACCCTTCTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||| | ||  |  ||||||   |||   ||||  || | |||||| ||||| ||  |||| ||||| || ||||| | ||||  ||  ||| |     ||||  ||| ||||      ||  |   || ||  ||||||||||| | ||||||  |   | | ||  |||| || ||| |   ||   ||||||||||||||    ||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>1.42783</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>128981</Hsp_hit-from>
+      <Hsp_hit-to>128857</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>GTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCC-AATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCC</Hsp_qseq>
+      <Hsp_hseq>GTCACC--ATCATAAAGGGCCATCGGGTTGATCAAACAGGATTTGCCCTTAATGAAGTCAT-ATTGGTTCTCCCGTATCAGCT--CCGTCTTCCACGTGCCTTAGCATAGCTTCCAGGAGGATCTGCTCC</Hsp_hseq>
+      <Hsp_midline>||||||  ||||   | ||| |||  |||| | || || ||||||||||| || ||  |||  |   | |||||  ||||  |  | ||||| ||  ||| | |  || ||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|284515933|gb|AC238641.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-1H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC238641</Hit_accession>
+  <Hit_len>161242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.915</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>5.31633e-25</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>63636</Hsp_hit-from>
+      <Hsp_hit-to>63859</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>TCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>TCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCATGACTTGCCCTTGGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAGTGCTTCAAAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | |||||| ||||||||  | |||||||||| |||  |||  ||||||||||| || |  |  ||||| ||||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|300069066|gb|AC239494.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-109H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239494</Hit_accession>
+  <Hit_len>159279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.85558e-24</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>125424</Hsp_hit-from>
+      <Hsp_hit-to>125653</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>114.899</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.75393e-22</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>46515</Hsp_hit-from>
+      <Hsp_hit-to>46712</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGG</Hsp_qseq>
+      <Hsp_hseq>AACTTCCACCACTTTCCCCATATCCACAGAGCCAGTTATCTCATCATAGATGGCAATCAAGTTGGTCAGGCATGACTTGCCCTTGGTGAATCCATGTTGACTGTTCCTGATCACCTTCCTCTCCTCCAAGTGCTTCAAAATAGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGG</Hsp_hseq>
+      <Hsp_midline>||| ||||| ||| | |||  |||||   | ||||| | |||||||  || ||| ||||||||||| | |||||| ||||||||  | |||||||| | |||  |||  ||||| ||||| || | ||  ||||| ||||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00078971</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>120977</Hsp_hit-from>
+      <Hsp_hit-to>121035</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCC</Hsp_qseq>
+      <Hsp_hseq>GAAGGAAATTAGGTTGGTTTGGCATGATTTGCTCTTGACAAATCCATGCTGGCTAATCC</Hsp_hseq>
+      <Hsp_midline>|||||  || | |||||||  ||||||||||| ||| | |||||||||||  ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|298493367|gb|AC239508.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-29H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239508</Hit_accession>
+  <Hit_len>148255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.85558e-24</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>118698</Hsp_hit-from>
+      <Hsp_hit-to>118927</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCAGAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|298229034|gb|AC239513.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-47H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239513</Hit_accession>
+  <Hit_len>139458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.85558e-24</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>123102</Hsp_hit-from>
+      <Hsp_hit-to>122873</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>5.68128e-12</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>12299</Hsp_hit-from>
+      <Hsp_hit-to>12168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>ATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCC</Hsp_qseq>
+      <Hsp_hseq>ATCAAAGAAAGCTATCAGATTGGTTTGACATGATTTGTTCTTCACAAATCCATGCTGGCTGTTCCCTATCACCTTACTACCTTCCAAGTGTTTGCAGATGATTTCCTTAATTACTTGCTCCATTATCTTCCC</Hsp_hseq>
+      <Hsp_midline>||||  ||| |||||||  ||||||   |||||||||  ||||| |||||||||||  ||  |||| ||||| || ||  ||| ||  || ||| | |||  ||||   ||||  |||||||| | ||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>4.36776e-07</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>67688</Hsp_hit-from>
+      <Hsp_hit-to>67815</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>GAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>GAAAGCGATTAGGTTGGTTTGACATGATTTGCTCATGACAAATCCATGCTCACTGTTATTTATCACCCTATTATCTTTTAGGTGTTTGCAAATTGATTGCTTAATTATTTGCTCCATTATCTTTCCAG</Hsp_hseq>
+      <Hsp_midline>||| || || | |||||||   |||||||||| | | | |||||||||||||||  |    |||||  |  | ||||| |  || ||| |||| | || |   ||||| |||||||| | ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|293597584|gb|AC238643.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-34H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC238643</Hit_accession>
+  <Hit_len>148967</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.85558e-24</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>80195</Hsp_hit-from>
+      <Hsp_hit-to>79966</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2317255|dbj|AB005891.1|</Hit_id>
+  <Hit_def>Platemys spixii retrotransposon CR1-like LINE, copmlete sequence</Hit_def>
+  <Hit_accession>AB005891</Hit_accession>
+  <Hit_len>4480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.309</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>6.47661e-24</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>3324</Hsp_hit-from>
+      <Hsp_hit-to>3128</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGG</Hsp_qseq>
+      <Hsp_hseq>ACGTCCACCGCTTTCCCCACATCCACAGAGCCAGTCACCTCTTCATAGAAAGCAATCAGGTTGGTCAGGCATGACTTGCCCTTGGTGAATCCATGYTGACTGYTCCTGATCACCTTCCTCTCTTCYAAGTGCCTTAAAATGGATTCCTTGAGGACCTGYTCCATGATTTTTCCAGGGAYTGAGGTGAGGCTGACCGG</Hsp_hseq>
+      <Hsp_midline>|| |||||  || | ||| ||||||   | ||||||||||| |||  ||| || |||| |||||| | |||||| ||||||||  | |||||||| | |||  |||  ||||| ||||| ||||  |  ||| | ||||||| ||||  ||  | ||| ||||| |  || |||| |  | | ||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|283764892|gb|AC239597.1|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-79H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239597</Hit_accession>
+  <Hit_len>144397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.702</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>7.89013e-23</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>17163</Hsp_hit-from>
+      <Hsp_hit-to>17392</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCA-GAGGTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACAGCCACTGCTTTCCCCTCATCCACAGATCCAGTTATCTCCTCATAGAAGGCAATGAGGTTAGTCAGGCATGACTTGCCCTTGGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAGTGCTTCAGAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCATGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTGTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||| || | ||||||||||   | ||||| | ||| |||  |||||| || | ||| || | |||||| ||||||||  | |||||||||| |||  |||  ||||||||||| || |  |  ||||| | ||| | ||||  ||  | ||||||||| |  || ||| |   | | ||| ||||||| ||| |   ||   ||| ||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.8312</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>1.98296e-11</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>126645</Hsp_hit-from>
+      <Hsp_hit-to>126473</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCC</Hsp_qseq>
+      <Hsp_hseq>ACATCCACCGCTTCACCCTTATCCACAAGGCTCGTTATCCTATCAAAGAAAGCTATCAGATTGGTTTGACACGATTTGTTCTTCACAAATCCATGCTGGCTGTTCCCTATCACCTTACCACCTTTCAAGTGTTTGCAGATGATTTCCTTAATTACTTGCTCCATTATCTTCCC</Hsp_hseq>
+      <Hsp_midline>||||||||  ||   |||| |||||  |  |  || | |  ||||  ||| |||||||  ||||||   || ||||||  ||||| |||||||||||  ||  |||| ||||| || |   ||||||  || ||| | |||  ||||   ||||  |||||||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|302024695|gb|AC239236.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-89H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239236</Hit_accession>
+  <Hit_len>154187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.095</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>9.61215e-22</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>66120</Hsp_hit-from>
+      <Hsp_hit-to>66349</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTTATCCACAGAGCCAGTTATCTCATCATAGAAGGCAATTAGGTTAGTCAGGCACGACTTCCCCTTCGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAATGTTTCATAATTGATTCCTTGTGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | |||| |||||   | ||||| | |||||||  |||||| || | ||| || | ||| || || |||||| | |||||||||| |||  |||  ||||||||||| || |  | ||| || | ||| | ||||  |   | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|157385243|gb|AC191637.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-10C15 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC191637</Hit_accession>
+  <Hit_len>188904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.095</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>9.61215e-22</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>109391</Hsp_hit-from>
+      <Hsp_hit-to>109626</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTC--AAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>ACATCTACTTCTCTCCTCCCATCTATCCAGCTGGTAGTGCCATCACAGAAGGTTATGAGGTTGGTCAAGCATGATTTTCCCTTAGTGAATCCATGCTGACTATTCCTGATGACCTTCTTCTCTTCCAATTGCTTGGAGATAGCATCTACGACAAGCTGTTCCATCACTTTTCCA-AGGACGGAGGTGAGACTGACTGGCCTA-TAGTTTCCCAGACTTTCCTTCTTGACCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>||||| ||| |||| | | |||| ||| | |  ||     |||||| ||||| ||| | |||||| ||||||||||| |||||  | |||||||||| |||| |||  || || ||| | |||| ||  |||||| | || || || | ||  | ||| |||||||  || ||| ||| |  | ||| | ||||| ||| ||  ||  |||||||   ||||| ||| || | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>4.36776e-07</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>50956</Hsp_hit-from>
+      <Hsp_hit-to>51076</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>AAACATCCACTACTCTTCCCTCATCCATCAAAC---CAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTT</Hsp_qseq>
+      <Hsp_hseq>AAACATCTATTGCTATTCCCCCATCCACCTACCTGTCAGTCATGACATCATTGTAAGCTATCAGATTAGTCAAGCATGATTTCACCTTGAGGAATCCTTGTTGACTGCTCCTGATAACTTT</Hsp_hseq>
+      <Hsp_midline>||||||| | | || ||||| |||||| | | |   ||||||   |||||  | | |||||||  || || |||||||||||  |||| |  ||||| || | ||| ||||  || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|113462188|gb|AC186820.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-164E17 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC186820</Hit_accession>
+  <Hit_len>166637</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.095</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>9.61215e-22</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>106191</Hsp_hit-from>
+      <Hsp_hit-to>105999</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>CATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAG-TGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>CATCACAGAAGGCTATCAGGTTGGTCAAGCATGATTTCCCCTTGGTGAATCCATGTTAACTGCTCCTTATAACCTTCTTCTCTTCCAATGGTTTGGAGATAGCAACCAGAAGT---TGTTCCATCACCTTTCCAGGGATGGAGATGAGTCTGATTGGCTTGC-AGTTTCACAGATCCTCCCTCTTGCCCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||| |||||| ||||||||||| |||||  | |||||||| | ||| ||||  || || ||| | |||| ||   | ||| | || ||  |||| | |   || ||||||| ||| |||| | |  || || | ||||  ||||| | ||  || |||||||||| | |||||| | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>4.36776e-07</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>133300</Hsp_hit-from>
+      <Hsp_hit-to>133463</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ACATCCATTGCCCTTCCCTTGTCCACCGAAGCCGTAACTCCATCATAGAAGGCCACCAGTTTGGTCAGGCATGACCTGTCCTTGCTG-------GCTGTCT----CAAATCACCTCTTTGTCTTGTATGTGCCTTAACATAGCTTCTAGGAAGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>||||||| | | |||||||  |||| | || | || ||  |||||  |||||| | ||  ||||| | ||||||  || ||||  |        |||  ||    | |||||| |   ||||||  || ||| | || || ||||| ||||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|256985266|gb|AC189682.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-27F17 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC189682</Hit_accession>
+  <Hit_len>214119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.292</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.35497e-21</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>72402</Hsp_hit-from>
+      <Hsp_hit-to>72599</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGT-CAAGTGCGGCTGACCGG</Hsp_qseq>
+      <Hsp_hseq>AACATCCACTGCTCTTTTCTCATCTACCCAGCTTGTCATGGCAACACAGTAGGCTACCTGCTTGGACAAGCATGATTTCCCTTTGGTGAATCCATGTTGGCTACTCCCAATAACCTTCTTCTCTTCCACTTGCTTGATGATGACATCCGAAATAAACTGTTCCATCATCTTGCCAGAGATGGAGGTGAGGCTGACAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||  |||||| | | | |  ||||   || ||| | |||||| |   ||||  ||||||||||| || ||  | |||||||| |  ||||||||||| || ||| | |||| ||  |||||||  ||| | |||   || | ||| ||||||| ||| |||||| |  | ||| ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|121584156|gb|AC192823.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone TAM32-69P18 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC192823</Hit_accession>
+  <Hit_len>154068</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.292</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.35497e-21</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>53900</Hsp_hit-from>
+      <Hsp_hit-to>53668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTC--AAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCACTGCTCTCCCCCCATCTACCTAGCCAGTGATGCCATCGTAGAAGGCTATGAGGTTGGTTGATCGCTATTTCCCCCTGGTGAATCCATGCTGACTACACCCGATAACTTTCTTCTCATCCAATTGCCGTGAGATGGCATCCAGAAGATGCTGCTCCATCATCTTTCCAG-GGACAGAGGTGAGACTGACTGGCCT-GTAGTTTCCCAGATCCTCC---TTGCCCATTTTGAA</Hsp_hseq>
+      <Hsp_midline>||||||||| |||| ||| |||| | | | ||||| |   ||||   ||||||||| | ||||||| | |   |||| ||| |  | |||||||||| ||||| ||| || |||||| | || | ||  |||    | ||||| ||||| |    ||||||||||| ||| |||| || |  | ||| | ||||| ||| |   ||  |||||||||||||   |||||| | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00078971</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>559</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>ATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAA--GTGCGGCTGACCGGC</Hsp_qseq>
+      <Hsp_hseq>ATCACAGAAGGCCATCAGGTAGGTCAGGCATGATCTGCCTTTGGTGAAGCCATGCTGGGTGTCTTGGATTAGTTCTTTGTCTTGCGTGTGCCACACCATAGCTTCTAGGAGGATCTGCTCCATGATCTTCCGAG-GCACAAAGGTGAGGCTCACCAGC</Hsp_hseq>
+      <Hsp_midline>||||| |||||| |||| || ||| | ||||||| |||| ||  | || |||||||   |       || | ||   |||||| | | |||   |  || ||||| ||||  ||||||||||| | ||||| || |  |||  ||| |||| ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|292658888|gb|AC239524.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-97H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239524</Hit_accession>
+  <Hit_len>150926</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.171e-20</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>321</Hsp_query-to>
+      <Hsp_hit-from>7730</Hsp_hit-from>
+      <Hsp_hit-to>7508</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCT</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCGTCATAGAAAGCAGTAAGGGTAGTCAGGCATGACTTGCCCTTGGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCCTCTAAGTGCTTCAGAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCCAGCGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCCAGATCCTCCT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | ||| |||  ||| ||  | | | | || | |||||| ||||||||  | |||||||||| |||  |||  ||||||||||| || |  |  ||||| | ||| | ||||  ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |   ||   |||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.5245e-06</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>11895</Hsp_hit-from>
+      <Hsp_hit-to>12009</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>GAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCA</Hsp_qseq>
+      <Hsp_hseq>GAAAGCTATCAGGTTAGTTTGACAGGATTTGTCCTTGACAAATCCATGCTAACTGTTACTTATCACCTTATTATCTTCTAGATGTTTGCAAATTGATTGC-TTATTATTTGCTCCA</Hsp_hseq>
+      <Hsp_midline>||| ||||||| ||| |||   || |||||| |||| | ||||||||||| |||  | |  ||||| ||  | ||||  | ||| ||| |||| | || |   ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|116014449|gb|AC187117.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-9F6 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC187117</Hit_accession>
+  <Hit_len>225028</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.171e-20</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>132917</Hsp_hit-from>
+      <Hsp_hit-to>132723</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>CATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCA--AGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>CATCATAGAAGGCTTTGAGGTTGGTTGAGCATGATTTTCCCTTGGTGAATCCATGCTGACTCTTCCTGATGGCCTTCTTCTCTTCCAATTGCTTGAGA-TGGCATCCAGAACAAGCTGTGCCATCACCTTTCCAG-GGACAGAAGTGAGAATGACTGGCCTGTA-GTTTCCCAGATCCTCTTTCTTGCCCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||  ||||||| | | ||||||| |||||||||| |||||  | |||||||||| |||  |||  ||  | ||| | |||| ||  ||||||| | |||| ||||| |  | |||  |||||| ||| |||| || ||  |||| |  |||| ||| |  | |  |||||||||||| || |||||| | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00078971</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>145343</Hsp_hit-from>
+      <Hsp_hit-to>145237</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCA-ATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>GCATGATCTGCCCTTGGTGAAGCTGTGCTGTTTG-TCTCACATCACCTCCTTGTCCCTCATGTGCCTTAACGTGTCTTCCAGGAGGATCTGCTCCATGATCTTCCTAG</Hsp_hseq>
+      <Hsp_midline>||||||| |||||||  | || |  ||||   |  || || ||||| | | ||||  |||| ||| | ||  || |||||||||  ||||||||||| | ||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.00275636</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>137034</Hsp_hit-from>
+      <Hsp_hit-to>136873</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>CCCTTCATAAATCCATGCTCACTACTCCCA-ATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCA-AG-TGCGGCTGACCGGCTTACAAGAGTCCC-AGATCCTCCTTGTTGCCCGTCTTGAATAAATG</Hsp_qseq>
+      <Hsp_hseq>CCCTTGGTGAAGCCATGCTGGCTA-TCTCAGATCACCTACTCATCCGTCGTGTGCCTTAACATGTCTTCTAGGAGGATCTGCTCCATGATCTTCCCAG-GCACAGAGATGAGGCTCACCGGCCTGTA--ATTCCCTGGGTCCTCCTTCCTCCCTTTCTTG--TAAATG</Hsp_hseq>
+      <Hsp_midline>|||||  | || |||||||  ||| || || ||||| | |   ||  || | ||| | || ||| |||| ||||  ||||||||||| | |||||||| |  || || || |||| |||||| |  |  | ||||  | ||||||||  | ||  |||||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|115312359|gb|AC187594.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-112J14 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC187594</Hit_accession>
+  <Hit_len>245628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.171e-20</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>137466</Hsp_hit-from>
+      <Hsp_hit-to>137695</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGT-CAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACATCCACTGCTCTCCCACCATCTACCCAGCCAGTGATGACATCATAGAAGGCTATCA----GGTAAAGCATTATTTCCCCTTGGTGAATCCATGTTGACTACTCCTGATAACTTTCTTCTCTTCCAGTTCCTTGGAGATGGCATCCAGAACAAGCTGTTCTATTGCCTTTCCAGGGATGGAGGTGGGGCTGACTGG-TGTGTAGTTTCCTGGATCCTCC---TTGCCCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||  |||| | | | ||||| |   |||||  |||||||||||    ||| |||||| |||| |||||  | |||||||| | ||||||||  || |||||| | |||| ||  | |||| | ||||| ||||| |  | ||| || ||   ||| |||| | |  | ||| ||||||| || |    ||  |||  ||||||||   |||||| | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.7975</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.32103e-06</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>77669</Hsp_hit-from>
+      <Hsp_hit-to>77449</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCA-ATCACTTTCCTGTCTTTCATATG---CTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGT-CAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTT</Hsp_qseq>
+      <Hsp_hseq>ACATCCATTGCCCTTCCCCCATTCACCGATGCCGTCACTCCATCATAAAAGACCACCAGACTGGTCAGGCAAGATTTGCCCTTGGTGAAGCCGTGCTGGCT-GTCTCAGATCA--TCTCTTTGTCTCATATGTGACTT-AACAAAGCTTCTAGGAGGACCTGCTCCATGATCTTCCCAGGCATAGAGGTGAGGCTTACCAGCCT-GAAGTTTCCTGGATCTTCCTT</Hsp_hseq>
+      <Hsp_midline>||||||| | | |||||| ||| || | |  | |||||  |||||   ||| | | ||   |||| | ||| |||||||||||  | || || ||||  ||  || || ||||  |  || | | |||||||   ||| || |  ||||| ||||  | ||||||||| | ||||||||   |  | ||| |||| ||| || |  |||  |||  |||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00962064</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>168134</Hsp_hit-from>
+      <Hsp_hit-to>167975</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>CCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAG-TTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>CCCTCATCCACCAATGCCATCACTCCATCATAGAAGGCCA-CAAGATTGGTTAAGCATGACGTTCCCCTGGTGAAGTCGTGCTGGCTGTCTCGGATCACACGCTCATTCCTCATGTGATCAAGCATGTCATCCAGGAGGATCTGTTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||  |  ||||  |||||  |||||| | |||| ||||||||||||||  | ||| |  | ||  | ||||  ||    |  |||||   |   |   |||| || |  |  ||| | |||||||  ||||| ||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|297747479|gb|AC239210.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-105H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239210</Hit_accession>
+  <Hit_len>127376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.685</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>4.08719e-20</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>59290</Hsp_hit-from>
+      <Hsp_hit-to>59090</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGC</Hsp_qseq>
+      <Hsp_hseq>AACACATCTACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCGTCATAGAAGGCAATTAGGTTAGTCAGGCATGACTTGCCCTTGGTGAATCCATGCTGATTGTTCCTGATCACTTTCCTCTCCTCTAAATGCTTCAGAATTGATTCCTTGAGGACCTGCTCCATGATTTTTCTAGGGAGTGAGGGGAGGCTGACTGGC</Hsp_hseq>
+      <Hsp_midline>|| ||||| ||| || | ||||||||||   | ||||| | ||| |||  |||||| || | ||| || | |||||| ||||||||  | |||||||||| | |  |||  ||||||||||| || |  | |||||| | ||| | ||||  ||  | ||||||||| |  || | || | || | | | ||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|119926905|dbj|AB265804.1|</Hit_id>
+  <Hit_def>Coturnix japonica DNA, major histocompatibility complex class II region, haplotype 11</Hit_def>
+  <Hit_accession>AB265804</Hit_accession>
+  <Hit_len>16862</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.42657e-19</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>14621</Hsp_hit-from>
+      <Hsp_hit-to>14856</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTC-AAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>ACATCTACCACTCTCCCCCCATCCACCCAGCTAGTGTCATCTTCATAAAAGGCCACCAGGTTGGTCAAGCACGACCTCTCCTTGGTGAACCCATGTTGACTACTCCTGATAACCTCCTTATCTCCCAGTTGTCTGGAGATGGCATCCAGCACAAGCTGTTCCATCACCTCTCCAGGGATAGAAGTGAGGCTGACCGGCCTATAA-TTACCCGGGTCTTCCTTCTTGCCCTTCTTGAA</Hsp_hseq>
+      <Hsp_midline>||||| || ||||| ||| |||||| | | | |||  | || |||   ||||| | || |||||| ||||| ||  |  ||||  | || ||||| | ||||||||  || || | | | |||  ||  ||  || | ||||| ||||| |  | ||| ||||||| ||  |||| | |  ||||| ||||||||||| || ||    ||| | || ||||| |||||| |||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>87.848</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>3.82802e-14</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>10840</Hsp_hit-from>
+      <Hsp_hit-to>11074</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTC-AAGTGCGGCTGACCGGCTTA-CAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>ACATCTACCACTCTCCCCCCATCCACCCAGGATATGACATCTTCATAAAAGGCCACAAGGGTGGTCAAGCACGATCTCCCCTTGCTGAACCCATGCTGGGTACTCCTGATAACCTCCTTGTCTCCCAATTGTCTGGAGATGGCATCCAGCACAAGCTGTTC-ATCACCTCTCCAGGGATAGAAGTGAGGCTGACCGGCCTATCATTA--CCCGGGTCTTCCTTCTTGCCCTTCTTGAA</Hsp_hseq>
+      <Hsp_midline>||||| || ||||| ||| |||||| | |     | || || |||   ||||| |  | | |||| ||||| ||| | |||||  | || |||||||   ||||||  || || | | |||||  ||  ||  || | ||||| ||||| |  | ||| || |||| ||  |||| | |  ||||| ||||||||||| || ||  |  ||| | || ||||| |||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|118094390|ref|XM_001233253.1|</Hit_id>
+  <Hit_def>PREDICTED: Gallus gallus similar to Dnajb4-prov protein, transcript variant 1 (LOC424550), mRNA</Hit_def>
+  <Hit_accession>XM_001233253</Hit_accession>
+  <Hit_len>5070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.42657e-19</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>2981</Hsp_hit-from>
+      <Hsp_hit-to>2809</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>TAAAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCC</Hsp_qseq>
+      <Hsp_hseq>TAAAAACAG--ACTGTTTTTCCATCATCCACCAAGCTAATCACCTCACTGTAGAGTGAAATCAAGTTGGTCAAGCATGATTTCCCCTTTGTAAATCCATGCTGAC--CT-TAAATCACATTACTGTCTTCCATGTGTTTGAAAATGCTTTCTAGGAAGATATTCTTTCTCATCTTCCC</Hsp_hseq>
+      <Hsp_midline>||||||||   |||  | |||| ||||||| ||| | | ||||||||     ||  |  ||||||||||| ||||||||||| |||||  |||||||||||| ||  ||   |||||| || ||||||| ||| || |||||||||  ||| ||||  || | ||   ||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|118094389|ref|XM_422386.2|</Hit_id>
+  <Hit_def>PREDICTED: Gallus gallus similar to Dnajb4-prov protein, transcript variant 2 (LOC424550), mRNA</Hit_def>
+  <Hit_accession>XM_422386</Hit_accession>
+  <Hit_len>5055</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.42657e-19</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>2966</Hsp_hit-from>
+      <Hsp_hit-to>2794</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>TAAAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCC</Hsp_qseq>
+      <Hsp_hseq>TAAAAACAG--ACTGTTTTTCCATCATCCACCAAGCTAATCACCTCACTGTAGAGTGAAATCAAGTTGGTCAAGCATGATTTCCCCTTTGTAAATCCATGCTGAC--CT-TAAATCACATTACTGTCTTCCATGTGTTTGAAAATGCTTTCTAGGAAGATATTCTTTCTCATCTTCCC</Hsp_hseq>
+      <Hsp_midline>||||||||   |||  | |||| ||||||| ||| | | ||||||||     ||  |  ||||||||||| ||||||||||| |||||  |||||||||||| ||  ||   |||||| || ||||||| ||| || |||||||||  ||| ||||  || | ||   ||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|113462203|gb|AC190399.1|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-26P21 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC190399</Hit_accession>
+  <Hit_len>158780</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.42657e-19</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>81401</Hsp_hit-from>
+      <Hsp_hit-to>81635</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACATCTACTGCTCTCCCCCCATCTACCTAGCCAGTGATGATGTCATAAAAAGCTATCAGGTTGGTCAAGCATGATTTCCCCTTGGTGAATCCATGTTGACTGCTTCTGATAACTACCTTCTCTTTCAATTGCTCGGAAATGGCATCCAGAACAAATTGTTCCATCACCTT-TCTGGGAAGAGGTGAGGTTGATTGG-TCTGTAGTTTCCCAGATCTTCCTTCTTGCCCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||| ||| |||| ||| |||| | | | ||||| |     |||   || ||||||| |||||| ||||||||||| |||||  | |||||||| | ||| || |  || |||  | | |||||||  |||| | ||||||| ||||| |  |  || ||||||| |||  | | |   | ||| || |||  || |    ||  ||||||||| ||||| |||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|209414552|gb|AC202792.4|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-137M10 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC202792</Hit_accession>
+  <Hit_len>239573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.078</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.97921e-19</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>194199</Hsp_hit-from>
+      <Hsp_hit-to>194451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>TGAAGCCACAATA-AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCA--AGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>TGAAGTCAAGATACAAAACATTCTCTGCTCTCCCCCCATCTACCCAGCCAGTGATGACATCATAGAAGGCTATCAGGTTGGCCAAACATGATTTCCCCTTGGTGAATTCATGATGACTACTCCTGATAACCTTCTTCTCTTCCAATTTCTTGGAAAGAGTATCAAGAACAAGTTGTTCCATCACCTTTCCA-AGGACAGCAGTGACACTAACTGTCCTGTAA-TTTCCCAGATTCTACTTCTTGCCTTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>||||| ||  ||| ||||||| | || |||| ||| |||| | | | ||||| |   |||||  ||||||||||| |||||  || |||||||| |||||  | ||| |||| | ||||||||  || || ||| | |||| ||  | |||| |||  |  || || |  |  || ||||||| ||| ||| ||| ||  ||||   || || | | |  ||   |||||||| || ||| |||||  | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.48234e-05</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>10432</Hsp_hit-from>
+      <Hsp_hit-to>10495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>CAAGTTGGTTAAGCATGATTTGCCCTTC-ATAAATCCATGCTCACTACTCCCAATCACTTTCCTG</Hsp_qseq>
+      <Hsp_hseq>CAAGTTGGTTAAGCATGATTT-CCCTTCGGTGAATTCATGCTGACTATTCCTAAAGATTTTCTTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||||||  | ||| |||||| |||| ||| ||  | |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|207080343|gb|AC202799.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-64F3 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC202799</Hit_accession>
+  <Hit_len>200779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.078</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.97921e-19</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>130620</Hsp_hit-from>
+      <Hsp_hit-to>130368</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>TGAAGCCACAATA-AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCA--AGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>TGAAGTCAAGATACAAAACATTCTCTGCTCTCCCCCCATCTACCCAGCCAGTGATGACATCATAGAAGGCTATCAGGTTGGCCAAACATGATTTCCCCTTGGTGAATTCATGATGACTACTCCTGATAACCTTCTTCTCTTCCAATTTCTTGGAAAGAGTATCAAGAACAAGTTGTTCCATCACCTTTCCA-AGGACAGCAGTGACACTAACTGTCCTGTAA-TTTCCCAGATTCTACTTCTTGCCTTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>||||| ||  ||| ||||||| | || |||| ||| |||| | | | ||||| |   |||||  ||||||||||| |||||  || |||||||| |||||  | ||| |||| | ||||||||  || || ||| | |||| ||  | |||| |||  |  || || |  |  || ||||||| ||| ||| ||| ||  ||||   || || | | |  ||   |||||||| || ||| |||||  | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|160688624|gb|AC202136.4|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone TAM32-67B10 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC202136</Hit_accession>
+  <Hit_len>166557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.078</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.97921e-19</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>110191</Hsp_hit-from>
+      <Hsp_hit-to>109939</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>TGAAGCCACAATA-AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCA--AGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>TGAAGTCAAGATACAAAACATTCTCTGCTCTCCCCCCATCTACCCAGCCAGTGATGACATCATAGAAGGCTATCAGGTTGGCCAAACATGATTTCCCCTTGGTGAATTCATGATGACTACTCCTGATAACCTTCTTCTCTTCCAATTTCTTGGAAAGAGTATCAAGAACAAGTTGTTCCATCACCTTTCCA-AGGACAGCAGTGACACTAACTGTCCTGTAA-TTTCCCAGATTCTACTTCTTGCCTTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>||||| ||  ||| ||||||| | || |||| ||| |||| | | | ||||| |   |||||  ||||||||||| |||||  || |||||||| |||||  | ||| |||| | ||||||||  || || ||| | |||| ||  | |||| |||  |  || || |  |  || ||||||| ||| ||| ||| ||  ||||   || || | | |  ||   |||||||| || ||| |||||  | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|117580411|gb|AC191938.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone TAM32-65N17 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC191938</Hit_accession>
+  <Hit_len>165158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.078</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.97921e-19</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>99532</Hsp_hit-from>
+      <Hsp_hit-to>99784</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>TGAAGCCACAATA-AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCA--AGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>TGAAGTCAAGATACAAAACATTCTCTGCTCTCCCCCCATCTACCCAGCCAGTGATGACATCATAGAAGGCTATCAGGTTGGCCAAACATGATTTCCCCTTGGTGAATTCATGATGACTACTCCTGATAACCTTCTTCTCTTCCAATTTCTTGGAAAGAGTATCAAGAACAAGTTGTTCCATCACCTTTCCA-AGGACAGCAGTGACACTAACTGTCCTGTAA-TTTCCCAGATTCTACTTCTTGCCTTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>||||| ||  ||| ||||||| | || |||| ||| |||| | | | ||||| |   |||||  ||||||||||| |||||  || |||||||| |||||  | ||| |||| | ||||||||  || || ||| | |||| ||  | |||| |||  |  || || |  |  || ||||||| ||| ||| ||| ||  ||||   || || | | |  ||   |||||||| || ||| |||||  | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|94403070|gb|AC182256.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-131E6 from chromosome w, complete sequence</Hit_def>
+  <Hit_accession>AC182256</Hit_accession>
+  <Hit_len>196955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.078</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.97921e-19</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>48297</Hsp_hit-from>
+      <Hsp_hit-to>48123</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ACATCCACCACCCTTCTCCCATCCACCGAAGCCGTCACTCCATCATAGAAGGCCACCAGATTGGTCAGGCACGATCTGCCCTTGGTGAAGCCATGCTGGCTGTCTCAAATCACCTCTTTGTCTCACATGTGCCTTAACATAGCTTCTAGGAGGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||||| || |||| | |||||| | || | |||||  |||||  |||||| | ||  ||||| | ||| ||| |||||||  | || |||||||  ||    | |||||| |   |||||  ||| ||| | || || ||||| ||||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.7975</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.32103e-06</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>95423</Hsp_hit-from>
+      <Hsp_hit-to>95318</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>CTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTT</Hsp_qseq>
+      <Hsp_hseq>CTCTTCCTTTATCTATTGATGCTGTAACTCCATCATAAAAGGCCACCATGTTTGTCAGGCATGACTTGCCCTTGATGAAGCCATGCTGGTTACCACCAATCACTTT</Hsp_hseq>
+      <Hsp_midline>||||||| | ||| ||  |  | || ||  |||||   ||||| | || ||| || | |||||| |||||||| || || |||||||   |||  |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|210060614|gb|AC187584.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-176H1 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC187584</Hit_accession>
+  <Hit_len>171034</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.275</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.73792e-18</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>165863</Hsp_hit-from>
+      <Hsp_hit-to>166008</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>GAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAA-GTGCGGCTGA</Hsp_qseq>
+      <Hsp_hseq>GAAGCTTATCAGGTTGGTTAGGCATGATTTCCTCTTGATGAATCCACGCTGACTACTCTTGGTCATTTTCTTGTCTTTCATGTGTCTTCAAATAGTTTCCAGGATTAGCTGCCTCATTACCTCCCCAGGAATCAAGGTGAGACTGA</Hsp_hseq>
+      <Hsp_midline>||||  ||||| |||||||| ||||||||| | ||| || |||||| ||| |||||||    ||| |||| |||||||||| ||  |  |||| | ||||||||||| ||||  ||| | || |||||   |||| ||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|110612017|gb|AC186835.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-92O12 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC186835</Hit_accession>
+  <Hit_len>213273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.275</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.73792e-18</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>154009</Hsp_hit-from>
+      <Hsp_hit-to>153864</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>GAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAA-GTGCGGCTGA</Hsp_qseq>
+      <Hsp_hseq>GAAGCTTATCAGGTTGGTTAGGCATGATTTCCTCTTGATGAATCCACGCTGACTACTCTTGGTCATTTTCTTGTCTTTCATGTGTCTTCAAATAGTTTCCAGGATTAGCTGCCTCATTACCTCCCCAGGAATCAAGGTGAGACTGA</Hsp_hseq>
+      <Hsp_midline>||||  ||||| |||||||| ||||||||| | ||| || |||||| ||| |||||||    ||| |||| |||||||||| ||  |  |||| | ||||||||||| ||||  ||| | || |||||   |||| ||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|28850247|gb|AC140947.1|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone TAM33-40B24 from chromosome ul, complete sequence</Hit_def>
+  <Hit_accession>AC140947</Hit_accession>
+  <Hit_len>229639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.275</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.73792e-18</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>87686</Hsp_hit-from>
+      <Hsp_hit-to>87446</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>CACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAATA-AATGACA</Hsp_qseq>
+      <Hsp_hseq>CACTGCTCTCCTCCTATCTACCCAGCCAGTGATGACATCATAGAAGGCTATCAGGTTGGTCAAGCATGATTTCCCCTTGGTGAATATGTGTTGACTGCTCCTGATAACCTTCTTCTCTTCCAATTGCTTGGAGACAGCATCCAGAACAAGTTGTTCCACCACCTTTCCAGAGACAAAAATGGGGCTGACTGGCCT-GTAGTTTCCCAGGTCCTCCTGCTTGTCCTTTTTGAAGACACTGACA</Hsp_hseq>
+      <Hsp_midline>|||| |||| | |  ||| | | | ||||| |   |||||  ||||||||||| |||||| ||||||||||| |||||  | |||   || | ||| ||||  || || ||| | |||| ||  |||||| | |  || ||||| |  |  || |||| || ||| ||||||    || || ||||||| ||| |   ||  |||||| |||||||  ||| || | ||||| | | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.8143</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.0272e-08</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>176300</Hsp_hit-from>
+      <Hsp_hit-to>176462</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>CTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>CTTCCCCCCTTCACCGAAGCTGTCATTCCATCAAAGAAGGCCACCACATTGGTCAGGCAAGATCTGCCCTTGGTGAAGCCATGCTGGCTGTCTCAAATCACCTCTTTATCTCGTATGTGCCTTCACATAGCTTCTAGGAGGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||| | | || | || | ||||   |||||  |||||| | ||  ||||| | ||| ||| |||||||  | || |||||||  ||    | |||||| |   | |||   || ||| |  | || ||||| ||||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.5245e-06</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>48236</Hsp_hit-from>
+      <Hsp_hit-to>48408</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>CTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCA-ATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCA----GCTTCCCAGAGGT</Hsp_qseq>
+      <Hsp_hseq>CTCTTCCCTTGTCCATGGATGTAGCCATGCTATCATAGAAGGCTAATAGGTTGGTCAGGCAGAACTTGCCCCTGATGAAACCATGCT-AGTTGTCCCATATCACCTCCCAATCTTCCATGTACCTTAGCACAGCTTTCAGGAGCATCTGCTCCATGATTTTCCTTCACAGAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||  |||||  |   || ||    ||||  ||||||||  | |||||| | |||  | |||||| | || || ||||||| | |  ||||| ||||| | ||  |||| ||| | | | |  |  |||| |||||  ||||||||||| |     |||| |||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00078971</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>77919</Hsp_hit-from>
+      <Hsp_hit-to>78015</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCT</Hsp_qseq>
+      <Hsp_hseq>ACATCAACAGCCTTTCCCTCATCCACCAGTCAGGTCACTCAATCATAGAAGGAGATGAGGTTGGTCAAGCAGGGCCTGCCTTTCATGAACCCATGCT</Hsp_hseq>
+      <Hsp_midline>||||| ||  |  |||||||||||| ||  |  |||||   ||||  |||||  || | |||||| ||||| |   |||| ||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|284009834|gb|AC239233.2|</Hit_id>
+  <Hit_def>Chrysemys picta BAC clone CHY3-7H12 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC239233</Hit_accession>
+  <Hit_len>154039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.06593e-18</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>89249</Hsp_hit-from>
+      <Hsp_hit-to>89006</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAATAAATG</Hsp_qseq>
+      <Hsp_hseq>AACACATCCACTGCTTTCCCCTCATCCACAGAGCCAGTTATCTCCTCATAGAAGGCAATTAGGTTAGTCAGGCATGACTTGCCCTTGGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTTCTCTAAGTGCTTCAGAATTGATTTCTTGAGGACCTACTTCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCT-GTAGTTCCCTGGATCCTCCTTCTT-CCCTTTTTTTAGAAATG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | ||||||||||   | ||||| | ||| |||  |||||| || | ||| || | |||||| ||||||||  | |||||||||| |||  |||  ||||||||||| |  |  |  ||||| | ||| | || |  ||  | || || ||| |  || |||| |  | | ||| ||||||| ||| |   ||   ||  |||||||||| || ||| | ||  | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.62771e-12</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>141044</Hsp_hit-from>
+      <Hsp_hit-to>141216</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCC</Hsp_qseq>
+      <Hsp_hseq>ACATCCACAGCTTCTCCCTTATCCACAAGACTTGTTATCCTATCAAAGAAAGCTATCAGATTGGTTTGACATGATTTGTTCTTTACAAATCCATGCTGGCTGTTCCCTATCACCTTACCACCTTCCAAGTGTTTGCAGATGATTTCCTTAATGATTTGCTCCATTATCTTCCC</Hsp_hseq>
+      <Hsp_midline>||||||||  ||  ||||| |||||  | ||  || | |  ||||  ||| |||||||  ||||||   |||||||||  ||| | |||||||||||  ||  |||| ||||| || |   ||| ||  || ||| | |||  ||||   || || |||||||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|224994826|gb|AC233993.4|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-174G3 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC233993</Hit_accession>
+  <Hit_len>254652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.06593e-18</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>90417</Hsp_hit-from>
+      <Hsp_hit-to>90579</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TGAAGCCACAATAAA-AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAG</Hsp_qseq>
+      <Hsp_hseq>TGAAGTCAAAATAGACAACATCCACTGTTCTCCCCCCATCTACCAATCCAGTGATGACATCATAGAAGGCTACTAGGTTGGTCAAGCATGATTTCCCCTTGGTGAATCCATGTTGACTACT---GATAACCTTCTTTTCTTCCAATTGCTTGGAGACGGTATCCAG</Hsp_hseq>
+      <Hsp_midline>||||| || |||| | ||||||||||  ||| ||| |||| | ||| ||||| |   |||||  ||||||||  | |||||| ||||||||||| |||||  | |||||||| | ||||||    || || ||| | |||| ||  |||||| | | ||  |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>86.0446</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>1.33611e-13</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>154175</Hsp_hit-from>
+      <Hsp_hit-to>154006</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>CTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAG-TGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTG</Hsp_qseq>
+      <Hsp_hseq>CTACCAGATTGGTCAAGTATGATTTCCTCTTGGTGAATACATGATGACTTTTCCTGATCATTCTCCTTTCTTCCACTTGCTTGGAGATGGCATCCAAAATAAGTTGTTCCATCACCTTTCCAGGGATGGAGGTGAGGCTCACTGGCCTATA-GTTTCCCAGATCCTTCTTG</Hsp_hseq>
+      <Hsp_midline>||| ||  ||||| ||| ||||||| | |||  | ||| |||| | |||  |||  |||| | |||| |||| ||  |||||| | ||||| ||||  || |  || ||||||| ||| |||| | |  || || |||| || ||| || | |  ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|113462179|gb|AC188179.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-191K24 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC188179</Hit_accession>
+  <Hit_len>207508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.06593e-18</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>197638</Hsp_hit-from>
+      <Hsp_hit-to>197832</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAG-TGCGGCTGAC</Hsp_qseq>
+      <Hsp_hseq>AATATCCACTGATCTTCTCTCCTCTGTCAGGCCAGTCATTTCATTGTTGAAGTTCATCAAGTTATTCAAGAATTACTTCCCTTTGGTGAATCCGTGATGACTATTCCCGGTGCCTTTCTTGTCTTTGATGTGTCTGGAAATGGTTATCAGGACTAGCTGCTCCATCACCTTCCCAAGGATCAAGATGAGACTGAC</Hsp_hseq>
+      <Hsp_midline>|| |||||||  ||||| ||| ||  |||  |||||||  ||||    ||||   ||||||||  | ||| || | || || ||  | ||||| || | |||| ||||  |  ||||| ||||||| || ||  || |||||| |  ||||| || ||||||||||| |||||||  | ||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|110612025|gb|AC187107.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-144B12 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC187107</Hit_accession>
+  <Hit_len>191067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.06593e-18</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>54361</Hsp_hit-from>
+      <Hsp_hit-to>54523</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TGAAGCCACAATAAA-AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAG</Hsp_qseq>
+      <Hsp_hseq>TGAAGTCAAAATAGACAACATCCACTGTTCTCCCCCCATCTACCAATCCAGTGATGACATCATAGAAGGCTACTAGGTTGGTCAAGCATGATTTCCCCTTGGTGAATCCATGTTGACTACT---GATAACCTTCTTTTCTTCCAATTGCTTGGAGACGGTATCCAG</Hsp_hseq>
+      <Hsp_midline>||||| || |||| | ||||||||||  ||| ||| |||| | ||| ||||| |   |||||  ||||||||  | |||||| ||||||||||| |||||  | |||||||| | ||||||    || || ||| | |||| ||  |||||| | | ||  |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>86.0446</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>1.33611e-13</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>118119</Hsp_hit-from>
+      <Hsp_hit-to>117950</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>CTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAG-TGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTG</Hsp_qseq>
+      <Hsp_hseq>CTACCAGATTGGTCAAGTATGATTTCCTCTTGGTGAATACATGATGACTTTTCCTGATCATTCTCCTTTCTTCCACTTGCTTGGAGATGGCATCCAAAATAAGTTGTTCCATCACCTTTCCAGGGATGGAGGTGAGGCTCACTGGCCTATA-GTTTCCCAGATCCTTCTTG</Hsp_hseq>
+      <Hsp_midline>||| ||  ||||| ||| ||||||| | |||  | ||| |||| | |||  |||  |||| | |||| |||| ||  |||||| | ||||| ||||  || |  || ||||||| ||| |||| | |  || || |||| || ||| || | |  ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|89001199|gb|AC163706.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-71A16 from chromosome w, complete sequence</Hit_def>
+  <Hit_accession>AC163706</Hit_accession>
+  <Hit_len>206206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.06593e-18</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>22446</Hsp_hit-from>
+      <Hsp_hit-to>22212</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGT-CAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACATCCACTGCTCTCCCC--ATCTACCCAGCCAGGGATGAAATCATTGAAAGCTACCAGGTTGGTCAAGCATGATTTCCCCTTGGTGAATCCATGTTGACTTCCCCTGATAACCACCTTTTTTTTCAATTGCTTGGAGATGGCATCCAGAACAAGTTGTTCCATCACATTTCCAGGGATGGAGGTGAGGCTGACTGGCCT-GTAGTTTCCTGTATCCTCCTTCTTGCTCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| |||  ||| | | | ||||  |    ||||  ||| |||| || |||||| ||||||||||| |||||  | |||||||| | ||| | ||  || ||   | | | |||||  |||||| | ||||| ||||| |  |  || |||||||  || |||| | |  | ||| ||||||| ||| |   ||  |||   ||||||||| |||| | | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.8312</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>1.98296e-11</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>62565</Hsp_hit-from>
+      <Hsp_hit-to>62438</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>GAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>GAAGGCCACCAGGTTGGTCAGGCACGATCTGCCCTTGGTGAAGCCATGCTGGCTGTCTCGAATCACCTCTTTGTCTCACATGTGCCTTAACATAGCTTCTAGGAGGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>|||||| | || |||||| | ||| ||| |||||||  | || |||||||  ||    | |||||| |   |||||  ||| ||| | || || ||||| ||||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|46559819|gb|AC145915.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-80C14 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC145915</Hit_accession>
+  <Hit_len>196034</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.06593e-18</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>319</Hsp_query-to>
+      <Hsp_hit-from>18086</Hsp_hit-from>
+      <Hsp_hit-to>17853</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TGAAGCCACAATAAA-AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGT-CAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTC</Hsp_qseq>
+      <Hsp_hseq>TGAAGTCAAAGTACACAACATCTACTGCTCCCCCC-CATATACTTAGCCTGTAATGACATCACAGAAGGCTACCAGGCTGGTCAAGCATGATTTCCCCTTGGTGAATCCATGCTGACTATTCTTGATAACCTTCTTCCCTTCCAATTGCTTGAAGATGGCATGCAGAAAAAGTTGTTCCATCATCTTTCCAGGGATGGTGGTGAGGCTGTCTGGC-CAGCAGCTTCCCAGATCCTC</Hsp_hseq>
+      <Hsp_midline>||||| || | || | |||||| ||| |||  ||| |||  |   | || || |   |||||| |||||||| || | |||| ||||||||||| |||||  | |||||||||| |||| ||   || || ||| |  ||| ||  |||||||| ||||| | ||| |  |  || ||||||| ||| |||| | |    ||| ||||| | |||  |  ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>8.43177e-10</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>1320</Hsp_hit-from>
+      <Hsp_hit-to>1493</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ACATCCATTGC-CTTCCCCCACCCATCAAAGCTGTCACTCCATCATAGAAGGCCACCAGATTGGTCACACAAGATCTGCCCTTGGTGAAGCCATGCTGGCTGTCTTGGGTCACCTCTTTGTATCGTATGTGCCTCAACACAGCTTCTAGGAGGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>||||||| | | |||||| || |||||||| | |||||  |||||  |||||| | ||  ||||| |  || ||| |||||||  | || |||||||  ||        |||| |   ||| |   || ||| | || |  ||||| ||||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|154350359|gb|AC186171.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-162G20 from chromosome w, complete sequence</Hit_def>
+  <Hit_accession>AC186171</Hit_accession>
+  <Hit_len>217930</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.11722e-17</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>89076</Hsp_hit-from>
+      <Hsp_hit-to>88902</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATG--CTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ACATCCACTGCCCTTCTCCCATCCACCAAAGCCCTAACTCCATCATAGAAGGCTACCAGATTGGTCAGGCATGATCTGCCCTTGGTGAAGCCATGCTGGCTGTCTCGAATCACCT--CTTAATCTCATATGTGCCTTAACATAGCTTCTAGGAGGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>||||||||| | |||| | |||||| |||| |  | ||  |||||  |||||||| ||  ||||| | ||||||| |||||||  | || |||||||  ||    | |||||| |  ||   | |||||||  | | || || ||||| ||||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>77.0278</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>6.92122e-11</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>113741</Hsp_hit-from>
+      <Hsp_hit-to>113850</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>TTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCA-ATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTT</Hsp_qseq>
+      <Hsp_hseq>TTGATCAAGCAGGATTTGCCCTTGGTGAAGCCATGCTGGTT-CTCCTGTATCCCCTTCCTGTCTTCCATGTGCCTTAGCATAGCATCCAGGATTATCTGCTCCATGATCTT</Hsp_hseq>
+      <Hsp_midline>||| | ||||| |||||||||||  | || |||||||   | ||||   ||| | |||||||||| ||| ||| | |  || || |||||||||||||||||||| | |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>71.6177</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.94298e-09</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>211549</Hsp_hit-from>
+      <Hsp_hit-to>211375</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCA-TCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ACATCCACCGCCCTTCCCCCATCCACTGAAGCCA-TAACTCCATCATAGAAGGCCACCACATTGGTTAGGCACAATCTGCCCTTGGTGAAGTCGTGCTGGCTGTCTCGAATCACCTCTTTATCTCGTATGTGCCTTAACATAGCTTCTAAGAGGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>||||||||  | |||||| |||||| | || ||| | ||  |||||  |||||| | ||  ||||||| |||  || |||||||  | ||  | ||||  ||    | |||||| |   | |||   || ||| | || || ||||| | ||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.117203</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>53450</Hsp_hit-from>
+      <Hsp_hit-to>53356</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATG</Hsp_qseq>
+      <Hsp_hseq>ACATCAACAGCCTTTCCCTCATCCACCAGTCGGGTCAATAGATCATCGAAGGAGATCAGGTTGGTCATTCAGGACCTGCCCTTTGTGAACCCATG</Hsp_hseq>
+      <Hsp_midline>||||| ||  |  |||||||||||| ||  |  ||||    |||| ||||||  |||| |||||| |  || ||  |||||||  | || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.117203</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>82153</Hsp_hit-from>
+      <Hsp_hit-to>82059</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATG</Hsp_qseq>
+      <Hsp_hseq>ACATCAACAGCCTTTCCCTCATCCACCAGTCGGGTCAATAGATCATCGAAGGAGATCAGGTTGGTCATTCAGGACCTGCCCTTTGTGAACCCATG</Hsp_hseq>
+      <Hsp_midline>||||| ||  |  |||||||||||| ||  |  ||||    |||| ||||||  |||| |||||| |  || ||  |||||||  | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|150010840|gb|AC205936.1|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-90G19 from chromosome w, complete sequence</Hit_def>
+  <Hit_accession>AC205936</Hit_accession>
+  <Hit_len>201015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.11722e-17</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>156720</Hsp_hit-from>
+      <Hsp_hit-to>156546</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATG--CTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ACATCCACTGCCCTTCTCCCATCCACCAAAGCCCTAACTCCATCATAGAAGGCTACCAGATTGGTCAGGCATGATCTGCCCTTGGTGAAGCCATGCTGGCTGTCTCGAATCACCT--CTTAATCTCATATGTGCCTTAACATAGCTTCTAGGAGGATCTGCTCCATGATCTTCCCAG</Hsp_hseq>
+      <Hsp_midline>||||||||| | |||| | |||||| |||| |  | ||  |||||  |||||||| ||  ||||| | ||||||| |||||||  | || |||||||  ||    | |||||| |  ||   | |||||||  | | || || ||||| ||||  ||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>77.0278</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>6.92122e-11</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>181385</Hsp_hit-from>
+      <Hsp_hit-to>181494</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>TTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCA-ATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTT</Hsp_qseq>
+      <Hsp_hseq>TTGATCAAGCAGGATTTGCCCTTGGTGAAGCCATGCTGGTT-CTCCTGTATCCCCTTCCTGTCTTCCATGTGCCTTAGCATAGCATCCAGGATTATCTGCTCCATGATCTT</Hsp_hseq>
+      <Hsp_midline>||| | ||||| |||||||||||  | || |||||||   | ||||   ||| | |||||||||| ||| ||| | |  || || |||||||||||||||||||| | |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>58.9941</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.85722e-05</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>22088</Hsp_hit-from>
+      <Hsp_hit-to>22283</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATG--CTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTC--AAGTGCGGCTGACCG</Hsp_qseq>
+      <Hsp_hseq>ACATGCATTGCCCTTTCCCCGTCCACCGAAGCCATAACTCCATCATAGAAGGCCACCAGATTGATCAGGCACAATCTGCCCTTGGTGAAGCCATGCTGGCTGTCTCGAATCACCT--CTTAATCTCATATGTGCCTTAACATAGCTTCTAGGAGGATCTGCTCCATGTTCTTCCCAG-GCACAGAGGTGCGGCTCACCG</Hsp_hseq>
+      <Hsp_midline>|||| || | | ||| || | |||| | || |  | ||  |||||  |||||| | ||  ||| | | |||  || |||||||  | || |||||||  ||    | |||||| |  ||   | |||||||  | | || || ||||| ||||  |||||||||||   |||||||| |  |  | |||||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.117203</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>121094</Hsp_hit-from>
+      <Hsp_hit-to>121000</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATG</Hsp_qseq>
+      <Hsp_hseq>ACATCAACAGCCTTTCCCTCATCCACCAGTCGGGTCAATAGATCATCGAAGGAGATCAGGTTGGTCATTCAGGACCTGCCCTTTGTGAACCCATG</Hsp_hseq>
+      <Hsp_midline>||||| ||  |  |||||||||||| ||  |  ||||    |||| ||||||  |||| |||||| |  || ||  |||||||  | || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.117203</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>149797</Hsp_hit-from>
+      <Hsp_hit-to>149703</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATG</Hsp_qseq>
+      <Hsp_hseq>ACATCAACAGCCTTTCCCTCATCCACCAGTCGGGTCAATAGATCATCGAAGGAGATCAGGTTGGTCATTCAGGACCTGCCCTTTGTGAACCCATG</Hsp_hseq>
+      <Hsp_midline>||||| ||  |  |||||||||||| ||  |  ||||    |||| ||||||  |||| |||||| |  || ||  |||||||  | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|128612231|gb|AC196083.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-147E14 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC196083</Hit_accession>
+  <Hit_len>202534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.11722e-17</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>82730</Hsp_hit-from>
+      <Hsp_hit-to>82567</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>AAAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAG-GCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCAT</Hsp_qseq>
+      <Hsp_hseq>AAAAATATCAGATACTTTCTACTTATCCA-CAAGGCAGTCATTTCATCAT-GAAGAGCTATCAGAATGGTCAGACACAATTTTGTCTTTATAAATCCATGCTGACTAGTCCCAGCCAATTTC---TCTTAAATATGCTTGGAAATGGCTTCCAGGGTTAGTTGCTCCAT</Hsp_hseq>
+      <Hsp_midline>||||| |||   |||| |   || ||||| |||  ||||||  ||||||  |||| |||||||   |||| |  ||  ||||   ||| ||||||||||||| |||| |||||  || ||||   ||||  ||||||||| |||||||||||||| |||  ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>86.0446</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>1.33611e-13</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>64493</Hsp_hit-from>
+      <Hsp_hit-to>64724</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGTCAAGT-GCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCAGTGCTCTTCCCCCATCTACTCAGCTAGTGATGACATCATAGAAGGCTACCAGATTGTTCAAGCATTATTTCCCCTTGGTGAATAC----TGACTACTCCTGATGACCTTCCTCTGTTCCAGTTGTTTGGAGAGGGTATTCAGAATGAGTTGTTCCATCACCTTTCCAGGGGCAGAGGCGAGACTGACTGGTCTGTA-GTTTCCCAGATCCTCCTTCTTGCTCTTGTTGAA</Hsp_hseq>
+      <Hsp_midline>||||||| | |||||||| |||| |   | | ||| |   |||||  |||||||| ||  ||| | |||||| |||| |||||  | ||| |    | ||||||||  || || ||||| | || ||  || ||| | | ||  | ||| || |  || ||||||| ||| |||| ||   ||  | | ||||| ||  |  | |  ||||||||||||||| |||| | | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>4.36776e-07</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>23771</Hsp_hit-from>
+      <Hsp_hit-to>23640</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>ATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCA-CTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATT</Hsp_qseq>
+      <Hsp_hseq>ATCAAACAAGCCAGCCTTCTCATCAGAGAAGGCTATCAGGTTGATTAGGTACAATTTCCTCTCCATAAAGCCATATGGATCTATTCCTAATTACCTTCTTGTGGTATATAT-ATTG-AAATGGTTTCTAGGATT</Hsp_hseq>
+      <Hsp_midline>||| | ||| |||| |  |||||||  ||||||||||| |||| ||| | |  |||| | || |||||| ||||    | ||| ||| ||| || ||| |||  |  ||||  ||| |||||| ||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|109689936|gb|AC186549.2|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone TAM31-53J7 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC186549</Hit_accession>
+  <Hit_len>159615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.11722e-17</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>77075</Hsp_hit-from>
+      <Hsp_hit-to>76901</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGT-TGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAG</Hsp_qseq>
+      <Hsp_hseq>ACATCCACTGCTCTCCCCCCATCTACCCAGCTGGTGATGACATCAGAGAAGGCTA-CAAGTCTGGTTGAACACAATTTTTCCTTGGTGAATCCACGCTAACTATTCCTGATGACCTTCTTCTCTTCCAATTGCTTGAAGACAGCATCCAGAATAAGCTGCTCCATCACCTTTCCAG</Hsp_hseq>
+      <Hsp_midline>||||||||| |||| ||| |||| | | | |  || |   |||||  |||||||| ||||| ||||| | ||  ||||  ||||  | |||||| ||| |||| |||  || || ||| | |||| ||  |||||||| |  || ||||| || | ||||||||||| ||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.00078971</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>42699</Hsp_hit-from>
+      <Hsp_hit-to>42795</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCT</Hsp_qseq>
+      <Hsp_hseq>ACATCAACAGCCTTTCCCTCATCCACCAGATGAGCCACTAGATCATAGAAAGAGATCAGGTTGGTCAAGCAGGACCTGCCCTTTGTGAACCCATGCT</Hsp_hseq>
+      <Hsp_midline>||||| ||  |  |||||||||||| || |  || |||   ||||  ||| |  |||| |||||| ||||| ||  |||||||  | || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|32812297|gb|AF355752.1|</Hit_id>
+  <Hit_def>Chelonia mydas clone 24/3 reverse transcriptase gene, partial cds</Hit_def>
+  <Hit_accession>AF355752</Hit_accession>
+  <Hit_len>1335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.6682</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.11722e-17</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>704</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>AAAACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAG-GTCAAGTGCGGCTGACCGGCTTACAAGAGTCCCA-GATCCTCCTTGTTGCC</Hsp_qseq>
+      <Hsp_hseq>AATACATCCACTGCTTTCCCTTCATCCACAGAACCAGTAATCTCATCATAAAAGGCGATTAGATTAGTCAGGCATGACCTTCCCTTGGTGAATCCATGCTGACTGTTCCTGATCACTTTCCTCTCATGTAAGTGCTTCAGGATTGATTCTTTGAGGACCTGCTCCATGATTTTTCCAGGGACTGAGGTGAGGCTGACTGGCCTGTA--GTTCCCAGGATCCTCCTTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| || | || |||||||   ||||||| | |||||||   ||||| || |  || || | ||||||  | |||||  | |||||||||| |||  |||  ||||||||||| || |  |  ||||| |  || | |||   ||  | ||||||||| |  || |||| |  | | ||| ||||||| ||| |  |    ||||| |||||||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|254540253|gb|AC197851.3|</Hit_id>
+  <Hit_def>Gallus gallus BAC clone CH261-57M24 from chromosome z, complete sequence</Hit_def>
+  <Hit_accession>AC197851</Hit_accession>
+  <Hit_len>240201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.8649</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>7.38981e-17</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>231230</Hsp_hit-from>
+      <Hsp_hit-to>230997</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATGCTCACTACTCCCAATCACTTTCCTGTCTTTCATATGCTTGAAAATGGCTTCCAGGATTATCTGCTCCATCAGCTTCCCAGAGGT-CAAGTGCGGCTGACCGGCTTACAAGAGTCCCAGATCCTCCTTGTTGCCCGTCTTGAA</Hsp_qseq>
+      <Hsp_hseq>AACATCCACTGCTCTCCCTTCATCTACCCAGCCAGTTATGACATCATAGAAGGTCACCAGGTTAGTCAAGCATGATTTCTGCTTGGTGAATCCATGTTGTCTACTCCTGGTAACCTTC---TCTTCCAATTGCTTGGAGAAGGCATCCAAAACAAGTTGTTCTATCAGCTGTCCAGGGTTGGAGGTGAGGCTGACTGGCCT-GTAGTTTCCTGGATCCTCCTTCTTACCCTTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| || ||||| | | | ||||| |   |||||  |||||  | || ||| || |||||||||||   |||  | |||||||| |  |||||||   | || |||   |||| ||  |||||| | | ||| ||||  |  |  || || |||||||  |||| | |  | ||| ||||||| ||| |   ||  |||  |||||||||| || ||| | |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.5245e-06</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>73938</Hsp_hit-from>
+      <Hsp_hit-to>73855</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>AACATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTT</Hsp_qseq>
+      <Hsp_hseq>AACAACCACTGCTCTCCCCATATCTACCCAGTCAGTTATAACATCACAGAAGGCTACCAGGTTGGACAAGCATGATTTCCCCTT</Hsp_hseq>
+      <Hsp_midline>|||| ||||| |||| |||  ||| | | |  |||| |   |||||| |||||||| || |||||  ||||||||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.0335793</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>76952</Hsp_hit-from>
+      <Hsp_hit-to>77045</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>CATCCACTACTCTTCCCTCATCCATCAAACCAGTCACCTCATCACCGAAGGCTATCAAGTTGGTTAAGCATGATTTGCCCTTCATAAATCCATG</Hsp_qseq>
+      <Hsp_hseq>CATCCATCGCTCTTCCCCTGTCCACCAATGCTGCCATTCCATCATAGAAGGCCACCAGATTGGTCAGGCAAGATTTGCCCTTGCTGAAGCCATG</Hsp_hseq>
+      <Hsp_midline>||||||   ||||||||   |||| |||  | | ||   |||||  |||||| | ||  ||||| | ||| |||||||||||  | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>14197262</Statistics_db-num>
+      <Statistics_db-len>-120761317</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
+
